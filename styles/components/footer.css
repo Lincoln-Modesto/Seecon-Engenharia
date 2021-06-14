@@ -1,0 +1,38 @@
+/*-------------Footer-----------*/
+
+footer{
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
+
+.footer{
+    background-color: #403C3C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content{
+    margin-left: 2rem;
+    padding: 2rem;
+    height: 15em;
+}
+
+.phones{
+    display: flex;
+    right: 2rem;
+}
+
+.footer-icons{
+    padding: 2rem;
+    margin-right: 2rem;
+}   
+
+.footer-icons a:hover{
+    cursor: pointer;
+}
+
+.footer-icons a{
+    margin-right: 1rem;
+}

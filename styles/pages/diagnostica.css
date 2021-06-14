@@ -1,0 +1,480 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+ul{
+	list-style:none;
+}
+
+/*-------------Main-----------*/
+
+.bg-blue-main{
+    display: flex;
+    margin-top: 8rem;
+    background-color: #ECF1F3;
+    height: 400px;
+    z-index: 1;
+}
+
+.bg-content{
+    display: block;
+    position: relative;
+    z-index: 99;
+    padding: 1.5rem;
+    top: 2rem;
+    left: 2rem;
+    color: var(--color-primary);
+    text-align: justify;
+}
+
+.bg-content span{
+    color: var(--color-primary);
+    font-size: large;
+    font-weight: 700;
+}
+
+.bg-content h2{
+    margin-bottom: 2rem;  
+    font-weight: 900;
+    color: #455A64;
+}
+
+.button-wpp{
+    background: #27B43E;
+    opacity: 0.7;
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.button-wpp a{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.button-wpp a:link{
+    text-decoration: none;
+}
+
+.button-wpp:hover{
+    opacity: 1;
+}
+
+.img-diagnostica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 auto;
+}
+
+.img-diagnostica img{
+    width: 400px;
+    height: 300px;
+}
+
+/*-------------SECTION - INSPEÇÃO PREDIAL-----------*/
+.inspeção h2{
+    margin-top: 4rem;  
+    font-weight: 900;
+    color: #455A64;
+    text-align: center;
+}
+
+.insp-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item-info{
+    padding: 1.5rem;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-info h6{
+    text-align: center;
+    color: #455A64;
+    font-weight: 700;
+}
+
+.item-info p{
+    display: block;
+    text-align: center;
+    color: #455A64;
+}
+
+.fabricas{
+    display: block;
+    margin-bottom: -3rem;
+}
+
+.subsistemas{
+    display: block;
+    margin-bottom: -1rem;
+}   
+
+.comercializacao{
+    display: block;
+    margin-bottom: -3rem;
+}
+
+/*-------------SECTION - VISTORIA PREDIAL-----------*/
+
+.vistoria h2{
+    text-align: center;
+    margin-top: 2rem;  
+    margin-bottom: 3rem;
+    font-weight: 900;
+    color: #455A64;
+}
+
+.vist-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: justify;
+    display: flex;
+}
+
+.vist-container h4{
+    font-weight: 700;
+    color: #455A64; 
+    margin-bottom: 2rem;
+}
+
+.vist-item{
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.vist-item p{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    color: #455A64; 
+}
+
+.vist-item img{
+    height: 70px;
+    width: 60px;
+}
+
+.vistoria-text span{
+    font-weight: 700;
+    color: #455A64; 
+}
+
+/*-------------SECTION - SLIDER-----------*/
+
+.laudos h2{
+    text-align: center;
+    font-weight: 900;
+    color: #455A64;
+    background-color: white;
+    padding: 3rem;
+}
+
+.slider{
+    width:100%;
+	height: 500px;
+    display:flex;
+	justify-content: center;
+	align-items: center;
+    background: linear-gradient(180deg, rgba(69, 90, 100, 0.3) 33.53%, rgba(220, 235, 240, 0.219) 84.66%);
+}
+
+.card-client{
+    width: 206px;
+    height: 351px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #9C9FA1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-weight: 600;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.card-client:hover{
+    transform-style: preserve-3d;
+	transform: scale(1.05);
+	transition: all ease 0.3s;
+}
+
+.card-img{ 
+    width: 206px;
+    height: 254px;
+}   
+
+.card-body{
+    text-align: center;
+}
+
+/*-------------SECTION - EQUIPAMENTOS-----------*/
+
+.equipamentos h2{
+    text-align: center;
+    margin-top: 2rem;  
+    margin-bottom: 3rem;
+    font-weight: 900;
+    color: #455A64;
+}
+
+.equipamentos p{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    color: #403C3C;
+    text-align: justify;
+}
+
+.equipamentos p span{
+    font-weight: 700;
+    color: #455A64; 
+}
+
+.equipament-list{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.equipament-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #403C3C;
+    font-size: medium;
+    font-weight: 600;
+    width: 200px;
+    height: 165px;
+    background: #FAFAFA;
+    border: 1px solid #9C9FA1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.equipament-item:hover{
+    transform-style: preserve-3d;
+	transform: scale(1.05);
+	transition: all ease 0.3s;
+}
+
+.equipament-item span{
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.equipament-item img{
+    width: 60px;
+    height: 60px;
+}
+
+/*-------------#NOVIDADE-----------*/
+
+.novidade{
+    width: 289px;
+    height: 44px;
+    left: 0px;
+    background-color: #455A64;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding: 0.5rem;
+}
+
+/*-------------SECTION - AUTOVISTORIA-----------*/
+
+.autovistoria h2{
+    text-align: center;
+    margin-top: 2rem;  
+    margin-bottom: 3rem;
+    font-weight: 900;
+    color: #455A64;
+}
+
+.autovistoria h6{
+    text-align: justify;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.autovistoria-list{
+    margin-top: -3rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.autovistoria-item{
+    text-align: center;
+}
+
+.auto2{
+    margin-top: 2rem;
+}
+
+.auto2 p{
+    margin-top: -1rem;
+}
+
+.auto3 img{
+    margin-top: 1rem;
+}
+
+.auto3 p{
+    margin-top: -1rem;
+}
+
+/*-------------Form-----------*/
+
+.main-form{
+    z-index: 999;
+}
+
+.main-form h2{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+    color: #455A64;
+    margin-bottom: 2rem;
+}
+
+.main-form-content{
+    display: flex;
+}
+
+.form{
+    width: 60%;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 2rem;
+    background: #FFFFFF;
+    border: 2px solid #CACDCF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.form h6{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #455A64;
+}
+
+.form-infos h5{
+    display: block;
+    max-width: 612px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.msg input{
+    height: 6rem;
+}
+
+.button-send{
+    margin-top: 1rem;
+}
+
+.button-send a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #455A64;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.button-send a:link{
+    text-decoration: none;
+}
+
+/*-------------Form-infos-----------*/
+
+.form-infos span{
+    text-align: center;
+    color: white;
+}
+
+.plataformas{
+    margin-top: 4rem;
+    margin-right: 2rem ;
+    padding: 1rem;
+    width: 600px;
+    height: 350px;
+}
+
+.button-wpp{
+    background: #27B43E;
+    opacity: 0.7;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-wpp a:link{
+    text-decoration: none;
+}
+
+.button-wpp:hover{
+    opacity: 1;
+}
+
+.container-form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wpp a{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bg-blue{
+    height: 300px;
+    width: 100%;
+    background: #455A64;
+    margin-top: -18rem;
+}

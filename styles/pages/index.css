@@ -1,0 +1,84 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-------------Hero-----------*/
+#hero{
+    background-image: url("/images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+#hero h2{
+    color: white;
+    margin-left: 2rem;
+}
+
+.texts-hero{
+    margin-bottom: 3rem;
+}
+
+.button{
+    margin-left: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 3rem;
+    color: var(--color-primary);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.infos-hero{
+    top: 5rem;
+}
+
+.infos-hero a:link{
+    text-decoration: none;
+} 
+
+/*-------------Main-----------*/
+
+.main-home{
+    display: flex;
+    justify-content: space-evenly;
+    color: #455A64;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.main-home h2{
+    font-weight: 900;
+}
+
+.main-home ul{
+    margin-top: 1rem;
+}
+
+.main-home ul li{
+    color: #403C3C;
+    line-height: 2rem;
+    font-size: larger;
+}
+
+.main-text{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+.main-text p{
+    margin-top: 1rem;
+}
+
+.main-text h3{
+    color: #403C3C;
+}
+
+.main-text span{
+    font-weight: 800;
+    color: #455A64;
+}
