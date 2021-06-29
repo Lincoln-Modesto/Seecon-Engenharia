@@ -5,3 +5,88 @@
 main{
     height: 500px;
 }
+
+/*-------------Main-----------*/
+
+.bg-gray-main{
+    display: flex;
+    margin-top: 8rem;
+    background-color: #9D9D9D;
+    height: 400px;
+    z-index: 1;
+}
+
+.bg-content{
+    display: block;
+    position: relative;
+    z-index: 99;
+    padding: 1.5rem;
+    left: 2rem;
+    color: var(--color-primary);
+    text-align: justify;
+    color: white;
+}
+
+.bg-content span{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+.button-wpp{
+    background: #27B43E;
+    opacity: 0.7;
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40%;
+}
+
+.button-wpp a{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.button-wpp a:link{
+    text-decoration: none;
+}
+
+.button-wpp:hover{
+    opacity: 1;
+}
+
+.img-senior1{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+#title-section{
+    position: absolute;
+    top: 10rem;
+    left: 50rem;
+    z-index: 99;
+    justify-content: flex-end;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    font-size:x-large;
+}
+
+.img-senior1 img{
+    width: 300px;
+    height: 320px;
+}
+
+#senior-logo{
+    width: 350px;
+    height: 100px;
+}
+
+.bg-gray-mainh6{
+    display: flex;
+    width: 100%;
+}

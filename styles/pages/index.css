@@ -4,7 +4,7 @@
 
 /*-------------Hero-----------*/
 #hero{
-    background-image: url("/images/hero.png");
+    background-image: url("../../images/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;

@@ -1,3 +1,4 @@
+
 /*-------------Header-----------*/
 
 header{
@@ -8,8 +9,8 @@ header{
     height: 80px;
     width: 100%;
     z-index: 999;
+    filter: drop-shadow(0px 4px 4px rgba(69, 90, 100, 0.45));
 }
-
 
 .header-content{
     display: inline-block;
@@ -21,14 +22,6 @@ header{
     justify-content: space-between;
     text-align: center;
     padding: 1rem;
-}
-
-#container-shadow{
-    height: 0.2rem;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(180deg, #D3CCCC 30.62%, rgba(196, 196, 196, 0) 100%)
 }
 
 .header-list{
@@ -44,7 +37,6 @@ header{
 .header-list li{
     display: inline-block;
     position: relative;
-    
 }
 
 .header-list li::after{
