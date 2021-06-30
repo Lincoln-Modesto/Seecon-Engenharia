@@ -2,8 +2,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-main{
-    height: 500px;
+body{
+    overflow-x: hidden;
 }
 
 /*-------------Main-----------*/
@@ -11,20 +11,26 @@ main{
 .bg-gray-main{
     display: flex;
     margin-top: 8rem;
-    background-color: #9D9D9D;
     height: 400px;
     z-index: 1;
+    background: linear-gradient(270deg, #88ADB5 45.82%, #857F7F 71.41%);
+    border: 0px solid #9C9FA1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .bg-content{
     display: block;
-    position: relative;
-    z-index: 99;
     padding: 1.5rem;
     left: 2rem;
     color: var(--color-primary);
     text-align: justify;
     color: white;
+}
+
+.bg-content p{
+    margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 .bg-content span{
@@ -59,26 +65,27 @@ main{
 }
 
 .img-senior1{
+    background-image: url("../../images/senior-background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    left: 1rem;
     display: flex;
-    justify-content: center;
-    align-items:flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 #title-section{
-    position: absolute;
-    top: 10rem;
-    left: 50rem;
-    z-index: 99;
-    justify-content: flex-end;
-    font-size: larger;
-    font-weight: 700;
-    color: white;
-    font-size:x-large;
+    font-weight: 800;
+    color: #455A64;
+    font-size: 1.75rem
 }
 
 .img-senior1 img{
     width: 300px;
     height: 320px;
+    margin-top: 1.85rem;
 }
 
 #senior-logo{
@@ -89,4 +96,210 @@ main{
 .bg-gray-mainh6{
     display: flex;
     width: 100%;
+}
+
+.img-casal{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.senior-list{
+    font-weight: 600;
+    color: #403C3C;
+    font-size: medium;
+    line-height: 2rem;
+}
+
+.casal{
+    width: 350px;
+    height: 270px;
+}
+
+#section-texts{
+    display: flex;
+    margin-bottom: -2rem;
+}
+
+.senior-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.senior-texts p{
+    margin-right: 4rem;
+    text-align: justify;
+}
+
+.senior-texts span{
+    font-weight: 600;
+    color: #403C3C;
+    font-size: medium;
+}
+/*-----------SECTION - SLIDER------------*/
+
+.slider{
+    display:flex;
+    justify-content: center;
+	align-items: center;
+    width: 100%;
+    height: 580px;
+    background: linear-gradient(180deg, rgba(125, 154, 162, 0.129) 33.07%, rgba(220, 235, 240, 0) 100%);
+}
+
+.slide-title{
+    text-align: center;
+    font-weight: 900;
+    color: #455A64;
+    padding: 3rem;
+}
+
+.card-img{ 
+    width: 785px;
+    height: 450px;
+    margin-left: 3rem;
+}   
+
+.card-body{
+    text-align: center;
+}
+/*-------------Form-----------*/
+
+.main-form{
+    z-index: 999;
+}
+
+.main-form h2{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+    color: #455A64;
+    margin-bottom: 2rem;
+}
+
+.main-form-content{
+    display: flex;
+}
+
+.form{
+    width: 60%;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 2rem;
+    background: #FFFFFF;
+    border: 2px solid #CACDCF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.form h6{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #455A64;
+}
+
+.form-infos h5{
+    display: block;
+    max-width: 612px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.msg input{
+    height: 6rem;
+}
+
+.button-send{
+    margin-top: 1rem;
+}
+
+.button-send a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #455A64;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.button-send a:link{
+    text-decoration: none;
+}
+
+/*-------------Form-infos-----------*/
+
+.form-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 8rem;
+}
+
+.form-infos h6{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #455A64;
+}
+
+.form-infos span{
+    text-align: center;
+    color: white;
+}
+
+.estrutural{
+    padding: 1rem;
+    width: 535px;
+    height: 210px;
+}
+
+.button-wpp{
+    background: #27B43E;
+    opacity: 0.7;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.button-wpp a:link{
+    text-decoration: none;
+}
+
+.button-wpp:hover{
+    opacity: 1;
+}
+
+.container-form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wpp a{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bg-aqua{
+    height: 380px;
+    width: 100%;
+    background: #7D9AA2;
+    margin-top: -24rem;
 }
