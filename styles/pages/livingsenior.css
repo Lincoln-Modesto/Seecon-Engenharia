@@ -8,46 +8,58 @@ body{
 
 /*-------------Main-----------*/
 
-.bg-gray-main{
+
+.bg-main{
     display: flex;
-    margin-top: 8rem;
-    height: 400px;
+    margin-top: 5rem;
+    background-image: url('../../images/img-senior-living.png');
+    height: 550px;
     z-index: 1;
-    background: linear-gradient(270deg, #88ADB5 45.82%, #857F7F 71.41%);
-    border: 0px solid #9C9FA1;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .bg-content{
-    display: block;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
     padding: 1.5rem;
-    left: 2rem;
+    top: 1rem;
+    margin-left: auto;
     color: var(--color-primary);
     text-align: justify;
-    color: white;
-}
-
-.bg-content p{
-    margin-right: 2rem;
-    margin-top: 1rem;
 }
 
 .bg-content span{
-    color: white;
+    color: var(--color-primary);
     font-size: large;
     font-weight: 700;
 }
 
+.bg-content h2{
+    margin-bottom: 2rem;  
+    font-weight: 900;
+    color: #455A64;
+}
+
+.bg-content h6{
+    margin-top: 1rem;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    background-color: #0C4458 ;
+    padding: 1.5rem;
+}
+
 .button-wpp{
+    margin-top: 4rem;
     background: #27B43E;
-    opacity: 0.7;
+    opacity: 0.9;
     padding: 1rem 1.5rem;
-    margin-top: 1.5rem;
     text-align: center;
     border-radius: 10px;
+    width: 20rem;
     cursor: pointer;
-    width: 40%;
 }
 
 .button-wpp a{
@@ -64,39 +76,8 @@ body{
     opacity: 1;
 }
 
-.img-senior1{
-    background-image: url("../../images/senior-background.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    left: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
 
-#title-section{
-    font-weight: 800;
-    color: #455A64;
-    font-size: 1.75rem
-}
-
-.img-senior1 img{
-    width: 300px;
-    height: 320px;
-    margin-top: 1.85rem;
-}
-
-#senior-logo{
-    width: 350px;
-    height: 100px;
-}
-
-.bg-gray-mainh6{
-    display: flex;
-    width: 100%;
-}
+/*-----------SECTION - CASAL------------*/
 
 .img-casal{
     padding: 2rem;
@@ -244,13 +225,20 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 2rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
+}
+
+.form-infos h4{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #455A64;
 }
 
 .form-infos h6{
     text-align: center;
     font-size: larger;
-    font-weight: 700;
+    font-weight: 400;
     color: #455A64;
 }
 
@@ -260,6 +248,7 @@ body{
 }
 
 .estrutural{
+    margin-top: 2rem;
     padding: 1rem;
     width: 535px;
     height: 210px;
@@ -267,7 +256,7 @@ body{
 
 .button-wpp{
     background: #27B43E;
-    opacity: 0.7;
+    opacity: 0.9;
     padding: 1rem 1.5rem;
     margin-top: 1rem;
     text-align: center;
@@ -300,6 +289,6 @@ body{
 .bg-aqua{
     height: 380px;
     width: 100%;
-    background: #7D9AA2;
+    background: linear-gradient(180deg, #455A64 0%, #403C3C 100%);
     margin-top: -24rem;
 }

@@ -36,3 +36,101 @@ footer{
 .footer-icons a{
     margin-right: 1rem;
 }
+
+/*-------------Created by----------*/
+
+.created{
+    display: flex;
+    font-size: large;
+    font-weight: 600;
+    zoom: 0.6;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    left: 10px;
+}
+
+.created img{
+    width: 40px;
+    height: 40px;
+}
+
+.created span{
+    color: #0070D9;
+}
+
+.created a:link{
+    text-decoration: none;
+    color: #0070D9;
+}
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)  {
+
+    footer{
+        zoom: 0.7;
+    }
+
+    .footer-content{
+        margin-left: 0 !important;
+    }   
+
+    .footer-icons{
+        zoom: 0.8;
+        display: flex;
+        align-content: center;
+        margin-right: 0 !important;
+    }
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+    footer{
+        zoom: 0.8;
+    }
+
+    .footer-content{
+        margin-left: 0 !important;
+    }   
+
+    .footer-icons{
+        zoom: 0.8;
+        display: flex;
+        align-content: center;
+        margin-right: 0 !important;
+    }
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+    footer{
+        zoom: 0.8;
+    }
+
+    .footer-icons{
+        zoom: 0.8;
+    }
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    footer{
+        zoom: 0.9;
+    }
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px){ 
+   
+ }
+
+/*XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width*/

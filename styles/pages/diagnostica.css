@@ -15,11 +15,11 @@ ul{
 
 /*-------------Main-----------*/
 
-.bg-blue-main{
+.bg-main{
     display: flex;
-    margin-top: 8rem;
-    background-color: #ECF1F3;
-    height: 400px;
+    margin-top: 5rem;
+    background-image: url('../../images/diagnostica.png');
+    height: 550px;
     z-index: 1;
 }
 
@@ -28,7 +28,7 @@ ul{
     position: relative;
     z-index: 99;
     padding: 1.5rem;
-    top: 2rem;
+    top: 4rem;
     left: 2rem;
     color: var(--color-primary);
     text-align: justify;
@@ -46,41 +46,40 @@ ul{
     color: #455A64;
 }
 
-.button-wpp{
-    background: #27B43E;
-    opacity: 0.7;
-    padding: 1rem 1.5rem;
-    margin-top: 1.5rem;
-    text-align: center;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 40%;
+.bg-content h6{
+    margin-top: 4rem;
+    color: #403C3C;
+    font-weight: 400;
+    font-size: larger;
 }
 
-.button-wpp a{
+.button-wpp-inicial{
+    margin-top: 4rem;
+    background: #27B43E;
+    opacity: 0.9;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.button-wpp-inicial a{
     color: white;
     font-size: larger;
     font-weight: 700;
 }
 
-.button-wpp a:link{
+.button-wpp-inicial a:link{
     text-decoration: none;
 }
 
-.button-wpp:hover{
+.button-wpp-inicial:hover{
     opacity: 1;
 }
 
-.img-diagnostica{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 auto;
-}
-
-.img-diagnostica img{
-    width: 400px;
-    height: 300px;
+.eng-seecon img{
+    margin-top: 5.5rem;
 }
 
 /*-------------SECTION - INSPEÇÃO PREDIAL-----------*/
@@ -475,6 +474,6 @@ ul{
 .bg-blue{
     height: 300px;
     width: 100%;
-    background: #455A64;
+    background: linear-gradient(180deg, #455A64 0%, #403C3C 100%);
     margin-top: -18rem;
 }

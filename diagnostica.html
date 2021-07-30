@@ -22,64 +22,68 @@
         rel="stylesheet">
 </head>
 <body>
-    <!----header-->
-    <section>
-            <header>
-                <div>
-                    <div class="content">
-                        <img src="./images/logo.png" class="img-fluid" id="logo">
-                        <div class="header-content menu-desktop">
-                            <ul class="header-list">
-                                <li class="mr-3 item-list">
-                                    <a href="index.html">
-                                        <small>Home</small>
-                                    </a>
-                                </li>
-                                <li class="mr-3 item-list">
-                                    <a href="estrutural.html">
-                                        <small>Engenharia Estrutural</small>
-                                    </a>
-                                </li>
-                                <li class="mr-3 item-list">
-                                    <a href="diagnostica.html">
-                                        <small>Engenharia Diagnóstica</small>
-                                    </a>
-                                </li>
-                                <li class="mr-3 item-list">
-                                    <a href="seniorliving.html">
-                                        <small>Sênior Living</small>
-                                    </a>
-                                </li>
-                                <li class="mr-3 item-list">
-                                    <a href="contato.html">
-                                        <small>Contato</small>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+      <!----header-->
+      <header>
+        <div class="content">
+            <img src="./images/logo.png" class="img-fluid" id="logo">
+            <nav id="nav">
+                <button 
+                aria-label="Abrir menu"
+                aria-haspopup="true" 
+                aria-controls="menu" 
+                aria-expanded="false"
+                id="btn-mobile">Menu <span id="hamburguer"></span></button>
+                    <div class="header-content">
+                        <ul class="header-list" id="menu" role="menu">
+                            <li class=" item-list">
+                                <a href="index.html">
+                                    <small>Home</small>
+                                </a>
+                            </li>
+                            <li class=" item-list">
+                                <a href="estrutural.html">
+                                    <small>Engenharia Estrutural</small>
+                                </a>
+                            </li>
+                            <li class="item-list">
+                                <a href="diagnostica.html">
+                                    <small>Engenharia Diagnóstica</small>
+                                </a>
+                            </li>
+                            <li class="item-list">
+                                <a href="seniorliving.html">
+                                    <small>Sênior Living</small>
+                                </a>
+                            </li>
+                            <li class=" item-list">
+                                <a href="contato.html">
+                                    <small>Contato</small>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            
-            </header>
-    </section>
-    
+                </nav>
+            </div>
+    </header>
+
     <main>
+
         <section>
-            <div class="bg-blue-main">
-                <div class="col-6 bg-content">
+            <div class="bg-main">
+                <div class="bg-content">
                     <h2>Engenharia Diagnóstica</h2>
-                    <p>A equipe da <span>SEECON ENGENHARIA</span> segue rigorosas normas nacionais e internacioanis 
+                    <h6>A equipe da <span>SEECON ENGENHARIA</span> segue rigorosas normas nacionais e internacioanis 
                         quanto a vistoria de imóveis comerciais e residenciais. Realizamos diversos tipos de 
-                        vistorias para construtoras, condomínios e lojas comerciais. </p>
-                    <div class="button-wpp">
+                        vistorias para construtoras, condomínios e lojas comerciais. </h6>
+                    <div class="button-wpp-inicial">
                         <a href="#"> 
                             <img src="./images/whatsapp.png"></img>
                             Fale conosco
                         </a>
                     </div>
                 </div>
-                <div class="col-6 img-diagnostica">
-                    <img class="img-fluid " src="images/img-diagnostica.png">
+                <div class="eng-seecon">
+                    <img src="./images/eng-seecon.png">
                 </div>
             </div>
         </section>
@@ -450,8 +454,15 @@
                 </a>
             </div> 
         </div>
+        <div class="created">
+            <a href="https://github.com/Lincoln-Modesto" target="_blank">
+                <img src="images/github.png">
+                <span>&nbsp Lincoln Modesto</span>
+            </a>
+        </div>
     </footer>
 
-    <script src="js/script.js" type="text/javascript"></script> 
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/buttonMobile.js" type="text/javascript"></script>  
 </body>
 </html>
