@@ -8,7 +8,6 @@ body{
 
 /*-------------Main-----------*/
 
-
 .bg-main{
     display: flex;
     margin-top: 5rem;
@@ -24,7 +23,7 @@ body{
     align-items: center;
     z-index: 99;
     padding: 1.5rem;
-    top: 1rem;
+    top: -1.5rem;
     margin-left: auto;
     color: var(--color-primary);
     text-align: justify;
@@ -105,12 +104,11 @@ body{
 .senior-texts{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 4rem;
+    justify-content: center; 
 }
 
 .senior-texts p{
-    margin-right: 4rem;
+    margin-right: 3rem;
     text-align: justify;
 }
 
@@ -292,3 +290,252 @@ body{
     background: linear-gradient(180deg, #455A64 0%, #403C3C 100%);
     margin-top: -24rem;
 }
+
+/*-------------MEDIA QUERIES < 380px-----------*/
+
+@media (max-width: 380px) {
+
+    .bg-content h6{
+        display: none;
+    }
+
+    .bg-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)  {
+
+    header{
+        zoom: 0.8;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .form{
+        width: 350px !important;
+        margin-left: 0;
+        margin-left: -1.5rem;
+    }
+
+    .form-infos{
+       zoom: 0.8;
+    }
+
+    .main-form-content{
+        zoom: 0.9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-main{
+        zoom: 0.5;
+        margin-top: 4rem;
+    }
+
+    .bg-content{
+        zoom: 0.9;
+        margin-top: 3rem
+    }
+
+    #senior-logo{
+        margin-top: 3.5rem;
+        zoom: 0.8;
+    }
+
+    .img-casal{
+        display: none;
+    }
+
+    .senior-texts{
+        margin-left: 2rem;
+        margin-right: 3rem;
+        display: flex;
+        margin-top: 2rem;
+        zoom: 0.8;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .senior-texts p{
+        margin-right: 0;
+    }
+
+    #senior-slide{
+        margin-top: 2rem;
+        zoom: 0.6;
+    }
+
+    .bg-aqua{
+        margin-top: -20.5rem;
+        height: 330px;
+    }
+
+    .form{
+        width: 110% !important;
+    }
+
+    .main-form{
+        zoom: 0.7;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .form-infos{
+        margin-top: -5rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .form-infos h6{
+        display: none;
+    }
+
+    .form-infos h4{
+        display: none;
+    }
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .bg-main{
+        zoom: 0.60;
+    }
+
+    #senior-logo{
+        margin-top: 3.5rem;
+        zoom: 0.8;
+    }
+
+    .img-casal{
+        display: none;
+    }
+
+    .senior-texts{
+        margin-left: 2rem;
+        margin-right: 3rem;
+        display: flex;
+        margin-top: 2rem;
+        zoom: 0.8;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .senior-texts p{
+        margin-right: 0;
+    }
+
+    #senior-slide{
+        margin-top: 2rem;
+        zoom: 0.7;
+    }
+
+    .bg-aqua{
+        margin-top: -17rem;
+        height: 330px;
+    }
+
+    .form{
+        margin-left: 2rem;
+        width: 80%;
+    }
+
+    .form-infos{
+        margin-top: 6rem;
+    }
+
+    .main-form{
+        zoom: 0.7;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+    .bg-main{
+        zoom: 0.8;
+    }
+
+    #casal{
+        height: 300px;
+        width: 350px;
+    }
+
+    .form{
+        margin-left: 5rem;
+        width: 75%;
+    }
+
+    .form-infos{
+        margin-top: 5rem;
+    }
+
+    .main-form{
+        zoom: 0.8;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .senior-texts{
+        margin-left: 2rem;
+        display: block;
+        margin-top: 2rem;
+        zoom: 0.92;
+    }
+
+    .senior-list{
+        margin-right: 3rem;
+    }
+
+    #senior-slide{
+        zoom: 0.8;
+    }
+
+    .bg-aqua{
+        margin-top: -20rem;
+    }
+
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    .form{
+        margin-left: 5rem;
+        width: 70%;
+    }
+
+    .senior-texts{
+        margin-top: 2rem;
+    }
+
+    .senior-list{
+        margin-right: 4rem;
+    }
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px){ 
+   
+ }

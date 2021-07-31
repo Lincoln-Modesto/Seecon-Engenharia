@@ -139,7 +139,7 @@ header{
     #hamburguer::after,  #hamburguer::before{
         content: '';
         display: block;
-        width: 20px;
+        width: 22px;
         height: 2px;
         background-color: currentColor;
         margin-top: 5px;

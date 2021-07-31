@@ -11,10 +11,12 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .footer-content{
     margin-left: 2rem;
+    margin-bottom: 2rem;
     padding: 2rem;
     height: 15em;
 }
@@ -66,6 +68,26 @@ footer{
     color: #0070D9;
 }
 
+/*-------------MEDIA QUERIES < 380px-----------*/
+
+@media (max-width: 380px) {
+    
+    .footer-content{
+        zoom: 0.8;
+    }
+
+    .created{
+        zoom: 0.5;
+    }
+
+    .footer-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+}
+
 /*-------------MEDIA QUERIES-----------*/
 
 /* X-Small devices (portrait phones, less than 576px)*/
@@ -82,8 +104,13 @@ footer{
     .footer-icons{
         zoom: 0.8;
         display: flex;
+        flex-wrap: wrap;
         align-content: center;
         margin-right: 0 !important;
+    }
+
+    .footer-icons a{
+        margin-bottom: 1rem;
     }
  }
 

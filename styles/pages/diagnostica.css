@@ -78,8 +78,9 @@ ul{
     opacity: 1;
 }
 
-.eng-seecon img{
-    margin-top: 5.5rem;
+.eng-seecon{
+    display: flex;
+    align-items: flex-end;
 }
 
 /*-------------SECTION - INSPEÇÃO PREDIAL-----------*/
@@ -328,14 +329,16 @@ ul{
 }
 
 .autovistoria-list{
-    margin-top: -3rem;
-    padding: 3rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .autovistoria-item{
     text-align: center;
+    padding: 0 4rem 0 4rem;
 }
 
 .auto2{
@@ -477,3 +480,265 @@ ul{
     background: linear-gradient(180deg, #455A64 0%, #403C3C 100%);
     margin-top: -18rem;
 }
+
+/*-------------MEDIA QUERIES < 380px-----------*/
+
+@media (max-width: 380px) {
+    .eng-seecon{
+        display: none;
+    }
+
+    .bg-main{
+        height: 400px !important;
+    }
+
+    .form{
+        width: 300px !important;
+    }
+
+    .bg-content{
+        zoom: 0.95;
+    }
+    
+}
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    header{
+        zoom: 0.8;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .form{
+        width: 350px !important;
+        margin-left: 0;
+        margin-left: -1.5rem;
+    }
+
+    .main-form-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-main{
+        zoom: 0.7;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 675px;
+    }
+
+    .vist-container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .vist-itens{
+        display: none;
+    }
+
+    .bg-main h6{
+        margin-top: 1rem;
+    }
+
+    .eng-seecon{
+        justify-content: center;
+        position: relative;
+        bottom: 0; 
+    }
+
+    .bg-blue{
+        zoom: 0.9;
+        margin-top: -20.5rem;
+        height: 330px;
+    }
+
+    .form{
+        width: 110% !important;
+    }
+
+    .main-form{
+        zoom: 0.7;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .form-infos{
+        margin-top: 2rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .form-infos h6{
+        display: none;
+    }
+
+    .form-infos h4{
+        display: none;
+    }
+
+    .bg-content{
+        margin-top: -3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        margin-bottom: 3rem;
+    }
+
+    .button-wpp-inicial{
+        margin-top: 1rem;
+    }
+
+    .eng-seecon{
+        zoom: 0.7;
+    }
+
+    .inspeção{
+        zoom: 0.7;
+    }
+
+    .vistoria{
+        zoom: 0.7;
+    }
+
+    .laudos{
+        zoom: 0.7;
+    }
+
+    .equipamentos{
+        zoom: 0.7;
+    }
+
+    .novidade{
+        zoom: 0.6;
+    }
+
+    .autovistoria{
+        zoom: 0.7;
+    }
+
+    .plataformas{
+        display: none;
+    }
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .eng-seecon{
+        zoom: 0.7;
+    }
+
+    .inspeção{
+        zoom: 0.8;
+    }
+
+    .vistoria{
+        zoom: 0.8;
+    }
+
+    .laudos{
+        zoom: 0.8;
+    }
+
+    .equipamentos{
+        zoom: 0.8;
+    }
+
+    .novidade{
+        zoom: 0.7;
+    }
+
+    .bg-main{
+        zoom: 0.70;
+    }
+
+    .autovistoria{
+        zoom: 0.8;
+    }
+
+    .bg-blue{
+        margin-top: -17rem;
+        height: 330px;
+    }
+
+    .form{
+        margin-left: 2rem;
+        width: 80%;
+    }
+
+    .form-infos{
+        margin-top: -3rem;
+    }
+
+    .main-form{
+        zoom: 0.7;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+    .eng-seecon img{
+        zoom: 0.8;
+    }
+
+    .bg-main{
+        zoom: 0.8;
+    }
+
+    .form{
+        margin-left: 5rem;
+        width: 75%;
+    }
+
+    .form-infos{
+        margin-top: -3rem;
+    }
+
+    .main-form{
+        zoom: 0.8;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .bg-blue{
+        margin-top: -20rem;
+    }
+
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    .form{
+        margin-left: 5rem;
+        width: 70%;
+    }
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px){ 
+   
+ }

@@ -30,6 +30,7 @@
     font-weight: bold;
     width: 50%;
     text-align: center;
+    font-size: larger;
 }
 
 .infos-hero{
@@ -50,20 +51,18 @@
     padding: 2rem;
 }
 
-.clients h2{
+.main-home h2{
     text-align: center;
     margin-top: 2rem;
     font-weight: 900;
     color: #455A64;
+    margin-bottom: 1rem;
+    font-size: xx-large;
 }
 
 .clients{
     max-width: 100%;
     overflow-x: hidden;
-}
-
-.clients h2{
-    margin-bottom: 1rem;
 }
 
 #clients-2{
@@ -219,10 +218,36 @@
     cursor: pointer;
 }
 
-/*-------------MEDIA QUERIES-----------*/
+
+/*-------------MEDIA QUERIES < 380px-----------*/
+
+@media (max-width: 380px) {
+    .eng-seecon{
+        display: none;
+    }
+
+    .bg-main{
+        height: 400px !important;
+    }
+
+    .form{
+        width: 300px !important;
+    }
+
+    .bg-content{
+        zoom: 0.95;
+    }
+    
+}
+
+/*-------------MEDIA QUERIES-----------*
 
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px)  {
+
+    .button{
+        width: 30%;
+    }
 
     body{
         overflow-x: hidden;
@@ -258,32 +283,69 @@
         zoom: 0.5;
     }
 
+    .text-social-medias{
+        margin-top: 6rem;
+    }
+
+    .clients{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
     .form{
+        width: 350px !important;
         margin-left: 0;
-    }
-
-    main h2{
-        zoom: 0.5;
-    }
-
-    .form{
-        width: 120%;
+        margin-left: -1.5rem;
     }
 
     .form-infos{
-        display: none;
+       zoom: 0.8;
     }
 
     .main-form-content{
-        zoom: 0.8;
+        zoom: 0.9;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+    }
+  
+    .bg-blue{
+        margin-top: -20.5rem;
+        height: 330px;
+    }
+
+    .form{
+        width: 110% !important;
+    }
+
+    .main-form{
+        zoom: 0.7;
+    }
+
+    .form-infos{
+        margin-top: -5rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .text-social-medias{
+        display: none;
+    }
+
+    .info-icons{
+        display: none;
     }
 
     #h4-form{
         display: none;
+    }
+
+    .form-infos h4{
+        zoom: 1.2;
+        margin-top: 3rem;
+        color: white;
     }
 
  }

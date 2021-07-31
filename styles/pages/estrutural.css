@@ -97,6 +97,7 @@ main{
 
 .reforco-content{
     display: flex;
+    align-items: center;
 }
 
 .reforco-content span{
@@ -255,6 +256,10 @@ main{
     font-size: xx-large;
 }
 
+.card-numeros a{
+    cursor: pointer;
+}
+
 /*-------------PROJETOS-----------*/
 
 .projetos{
@@ -372,8 +377,9 @@ main{
     border-radius: 10px;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-bottom: 3rem;
     width: 70rem;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
 }
 
 .clientes-cabecalho{
@@ -402,3 +408,344 @@ main{
     margin-top: -1rem;
 }
 
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 430px) {
+
+    .orcamento{
+        display: none;
+    }
+
+    .bg-content{
+        zoom: 0.95;
+    }
+
+    .bg-content h2{
+        margin-bottom: 1rem ;
+    } 
+
+    .bg-main{
+        height: 400px;
+    }
+
+    .bg-content{
+        margin-top: -5rem !important;
+    }
+
+    .comofunciona1{
+        display: none;
+    }
+
+    .etapa-content{
+        margin-left: 0;
+    }
+
+    .seecon{
+        zoom: 0.4 !important;
+    }
+
+    .clientes{
+      display: none;
+    }
+
+    .button-wpp{
+        margin-top: 1rem ;
+    }
+
+    .reforco{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .projetos{
+        padding: 2rem;
+    }
+
+    .numeros{
+        zoom: 0.7 !important;
+    }
+}
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+    header{
+        zoom: 0.8;
+    }
+
+    .bg-main{
+        zoom: 0.7;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+    }
+
+    .reforco-content p {
+        margin-left: 0 !important;
+    }
+
+    .bg-main h6{
+        margin-top: 1rem;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .bg-content{
+        margin-top: -3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        margin-bottom: 3rem;
+    }
+
+
+    .img-diagnostica{
+        zoom: 0.8;
+        margin-bottom: 2rem;
+    }
+
+    .reforco{
+        zoom: 0.7;
+    }
+
+    .container-estrutural{
+        margin-top: 1rem !important;
+    }
+
+    .reforco-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reforco h2{
+        margin-top: 1rem !important;
+    }
+
+    .comoFunciona{
+        zoom: 0.7;
+    }
+
+    .numeros{
+        zoom: 0.8;
+    }
+
+    .comoFunciona h2{
+        margin-top: 1rem !important;
+    }
+
+    .comofunciona1{
+        zoom: 0.55;
+    }
+
+    .etapa-content h4 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .projetos{
+        zoom: 0.7;
+    }
+
+    .valor{
+        zoom: 0.7;
+    }
+
+    .button-orcamento{
+        width: 70%;
+        padding: 0.5rem;
+    }
+
+    .orcamento {
+        margin-top: 0.5rem;
+    }
+
+    .clientes{
+        zoom: 0.7;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+    .seecon{
+        zoom: 0.6;
+    }
+
+    .abece{
+        zoom: 0.6;
+        margin-left: 1rem;
+    }
+
+    .clientes-item{
+        width: 37rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    #sergipe{
+        zoom: 0.8;
+    }
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .clientes-item{
+        width: 48rem !important;
+        margin-bottom: 3.5rem !important;
+    }
+
+    .reforco-content p {
+        margin-left: 0 !important;
+    }
+
+    .bg-main{
+        zoom: 0.8;
+    }
+
+    .img-diagnostica{
+        zoom: 0.8;
+        margin-bottom: 2rem;
+    }
+
+    .reforco{
+        zoom: 0.8;
+    }
+
+    .container-estrutural{
+        margin-top: 1rem !important;
+    }
+
+    .reforco-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reforco h2{
+        margin-top: 1rem !important;
+    }
+
+    .comoFunciona{
+        zoom: 0.8;
+    }
+
+    .comoFunciona h2{
+        margin-top: 1rem !important;
+    }
+
+    .comofunciona1{
+        zoom: 0.7;
+    }
+
+    .etapa-content h4 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .projetos{
+        zoom: 0.8;
+    }
+
+    .valor{
+        zoom: 0.8;
+    }
+
+    .button-orcamento{
+        width: 70%;
+        padding: 0.5rem;
+    }
+
+    .orcamento {
+        margin-top: 0.5rem;
+    }
+
+    .clientes{
+        zoom: 0.7;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+    .seecon{
+        zoom: 0.7;
+    }
+
+    .abece{
+        zoom: 0.7;
+    }
+    
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+    .bg-main{
+        zoom: 0.8;
+    }
+
+    .img-diagnostica{
+        zoom: 0.8;
+    }
+
+    .reforco{
+        zoom: 0.8;
+    }
+
+    .comoFunciona{
+        zoom: 0.8;
+    }
+
+    .projetos{
+        zoom: 0.8;
+    }
+
+    .valor{
+        zoom: 0.8;
+    }
+
+    .button-orcamento{
+        width: 80%;
+    }
+
+    .clientes{
+        zoom: 0.8;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+    .seecon{
+        zoom: 0.8;
+    }
+
+    .abece{
+        zoom: 0.8;
+    }
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px){ 
+   
+ }

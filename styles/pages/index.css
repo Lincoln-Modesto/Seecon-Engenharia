@@ -34,6 +34,7 @@ body{
     font-weight: bold;
     width: 50%;
     text-align: center;
+    font-size: larger;
 }
 
 .infos-hero{
@@ -98,6 +99,10 @@ body{
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px)  {
 
+    .button{
+        width: 30%;
+    }
+
     header{
         zoom: 0.8
     }
@@ -125,11 +130,9 @@ body{
 
     .main-list{
         zoom: 0.85;
-        margin-left: 2rem;
     }
 
     .main-home img{
-        margin-left: 2rem;
         margin-bottom: 2rem;
         width: 510px;
         height: 380px;
