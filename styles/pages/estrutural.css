@@ -446,8 +446,9 @@ main{
         zoom: 0.4 !important;
     }
 
-    .clientes{
-      display: none;
+    .clientes-item{
+        width: 25rem !important;
+        margin-bottom: 3.5rem !important;
     }
 
     .button-wpp{
@@ -580,6 +581,7 @@ main{
 
     .seecon{
         zoom: 0.6;
+        margin-bottom: 3rem;
     }
 
     .abece{
@@ -588,8 +590,8 @@ main{
     }
 
     .clientes-item{
-        width: 37rem !important;
-        margin-bottom: 3rem !important;
+        width: 37rem ;
+        margin-bottom: 3rem;
     }
 
     #sergipe{
