@@ -11,7 +11,7 @@ body{
 .bg-main{
     display: flex;
     margin-top: 5rem;
-    background-image: url('../../images/img-senior-living.png');
+    background-image: url('../../images/img-senior-living.jpg');
     height: 550px;
     z-index: 1;
 }

@@ -15,7 +15,7 @@ main{
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
-    background-image: url('../../images/estrutural.png');
+    background-image: url('../../images/estrutural.jpg');
     height: 550px;
     z-index: 1;
 }
@@ -333,7 +333,9 @@ main{
 
 .seecon{
     display: flex;
+    align-items: center;
     margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .content-seecon{
@@ -412,7 +414,7 @@ main{
 /*-------------MEDIA QUERIES-----------*/
 
 /* X-Small devices (portrait phones, less than 576px)*/
-@media (max-width: 430px) {
+@media (max-width: 452px) {
 
     .orcamento{
         display: none;
@@ -581,7 +583,6 @@ main{
 
     .seecon{
         zoom: 0.6;
-        margin-bottom: 3rem;
     }
 
     .abece{

@@ -18,7 +18,7 @@ ul{
 .bg-main{
     display: flex;
     margin-top: 5rem;
-    background-image: url('../../images/diagnostica.png');
+    background-image: url('../../images/diagnostica.jpg');
     height: 550px;
     z-index: 1;
 }
