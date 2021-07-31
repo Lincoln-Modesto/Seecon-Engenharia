@@ -321,9 +321,8 @@ body{
     }
 
     .form{
-        width: 350px !important;
-        margin-left: 0;
         margin-left: -1.5rem;
+        width: 110% !important;
     }
 
     .form-infos{
@@ -379,10 +378,6 @@ body{
     .bg-aqua{
         margin-top: -20.5rem;
         height: 330px;
-    }
-
-    .form{
-        width: 110% !important;
     }
 
     .main-form{
@@ -451,7 +446,7 @@ body{
 
     .form{
         margin-left: 2rem;
-        width: 80%;
+        width: 95% !important;
     }
 
     .form-infos{

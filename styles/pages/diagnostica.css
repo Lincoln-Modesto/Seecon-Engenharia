@@ -563,6 +563,7 @@ ul{
     }
 
     .form{
+        margin-left: -1.5rem;
         width: 110% !important;
     }
 
@@ -677,7 +678,7 @@ ul{
 
     .form{
         margin-left: 2rem;
-        width: 80%;
+        width: 95% !important;
     }
 
     .form-infos{
