@@ -148,10 +148,12 @@ body{
 .card-body{
     text-align: center;
 }
+
 /*-------------Form-----------*/
 
 .main-form{
     z-index: 999;
+    margin-top: 3rem;
 }
 
 .main-form h2{
@@ -195,39 +197,32 @@ body{
     margin: 0 auto;
 }
 
-.msg input{
-    height: 6rem;
-}
-
-.button-send{
-    margin-top: 1rem;
-}
-
-.button-send a{
+#button-form{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button-send {
     background: #455A64;
     color: white;
     font-size: large;
     font-weight: 700;
+    width: 50%;
     padding: 1rem;
     border-radius: 10px;
-}
-
-.button-send a:link{
-    text-decoration: none;
+    border-style: none;
+    margin-top: 1rem;
 }
 
 /*-------------Form-infos-----------*/
 
-.form-infos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 2rem;
-    margin-top: 6rem;
+#senior{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
 }
 
 .form-infos h4{
@@ -308,14 +303,18 @@ body{
         flex-direction: column;
         justify-content: center;
     }
-    
+
+    .form{
+        margin-left: -2.5rem !important;
+    }
+
 }
 
 /*-------------MEDIA QUERIES-----------*/
 
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px)  {
-
+  
     header{
         zoom: 0.8;
     }
@@ -325,8 +324,8 @@ body{
     }
 
     .form{
-        margin-left: -1.5rem;
-        width: 110% !important;
+        margin-left: -3.5rem;
+        width: 130% !important;
     }
 
     .form-infos{

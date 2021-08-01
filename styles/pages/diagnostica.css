@@ -361,6 +361,7 @@ ul{
 
 .main-form{
     z-index: 999;
+    margin-top: 3rem;
 }
 
 .main-form h2{
@@ -408,24 +409,22 @@ ul{
     height: 6rem;
 }
 
-.button-send{
-    margin-top: 1rem;
-}
-
-.button-send a{
+#button-form{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button-send {
     background: #455A64;
     color: white;
     font-size: large;
     font-weight: 700;
+    width: 50%;
     padding: 1rem;
     border-radius: 10px;
-}
-
-.button-send a:link{
-    text-decoration: none;
+    border-style: none;
+    margin-top: 1rem;
 }
 
 /*-------------Form-infos-----------*/
@@ -493,7 +492,7 @@ ul{
     }
 
     .form{
-        width: 300px !important;
+        margin-left: -2.5rem !important;
     }
 
     .bg-content{
@@ -516,9 +515,8 @@ ul{
     }
 
     .form{
-        width: 350px !important;
-        margin-left: 0;
-        margin-left: -1.5rem;
+        margin-left: -3.5rem;
+        width: 130% !important;
     }
 
     .main-form-content{
@@ -560,11 +558,6 @@ ul{
         zoom: 0.9;
         margin-top: -20.5rem;
         height: 330px;
-    }
-
-    .form{
-        margin-left: -1.5rem;
-        width: 110% !important;
     }
 
     .main-form{
