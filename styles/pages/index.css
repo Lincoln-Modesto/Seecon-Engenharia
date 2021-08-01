@@ -7,6 +7,11 @@ body{
 }
 
 /*-------------Hero-----------*/
+
+title{
+    display: none;
+}
+
 #hero{
     background-image: url("../../images/hero.jpeg");
     background-repeat: no-repeat;

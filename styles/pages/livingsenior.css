@@ -8,6 +8,10 @@ body{
 
 /*-------------Main-----------*/
 
+#h1-senior{
+    display: none;
+}
+
 .bg-main{
     display: flex;
     margin-top: 5rem;
