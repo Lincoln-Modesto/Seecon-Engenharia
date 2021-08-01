@@ -17,6 +17,7 @@ main{
     margin-top: 5rem;
     background-image: url('../../images/estrutural.jpg');
     height: 550px;
+    font-size: larger;
     z-index: 1;
 }
 
