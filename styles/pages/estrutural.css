@@ -334,6 +334,7 @@ main{
 .seecon{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
@@ -351,8 +352,10 @@ main{
 }
 
 .abece{
-    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
 }
+
 
 /*-------------CLIENTES-----------*/
 
@@ -581,6 +584,11 @@ main{
         margin-left: 0rem;
     }
 
+    .clientes-item{
+        width: 37rem ;
+        margin-bottom: 3rem;
+    }
+
     .seecon{
         zoom: 0.6;
     }
@@ -588,11 +596,6 @@ main{
     .abece{
         zoom: 0.6;
         margin-left: 1rem;
-    }
-
-    .clientes-item{
-        width: 37rem ;
-        margin-bottom: 3rem;
     }
 
     #sergipe{

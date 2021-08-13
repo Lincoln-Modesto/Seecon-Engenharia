@@ -427,6 +427,63 @@ ul{
     margin-top: 1rem;
 }
 
+/*-------------CLIENTES-----------*/
+
+.container-cliente{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.clientes h2{
+    margin-bottom: 1rem;  
+    margin-top: 2rem;
+    font-weight: 900;
+    color: #455A64;
+    text-align: center;
+}
+
+.clientes-item{
+    border: 1px solid #9C9FA1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    width: 70rem;
+    padding: 1.5rem 2rem;
+}
+
+.clientes-cabecalho{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.clientes-cabecalho span{
+    color: #455A64;
+    font-size: large;
+    font-weight: 700;
+}
+
+.clientes-infos{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cliente-avaliacao{
+    color: #403C3C;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.stars{
+    margin-top: -1rem;
+}
+
+
 /*-------------Form-infos-----------*/
 
 .form-infos span{
@@ -499,6 +556,11 @@ ul{
         zoom: 0.95;
     }
     
+    .clientes-item{
+        width: 25rem !important;
+        margin-bottom: 3.5rem !important;
+    }
+
 }
 
 /*-------------MEDIA QUERIES-----------*/
@@ -627,10 +689,29 @@ ul{
         display: none;
     }
 
+    .clientes{
+        zoom: 0.7;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+    .clientes-item{
+        width: 37rem ;
+        margin-bottom: 3rem;
+    }
+
+
  }
 
 /* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .clientes-item{
+        width: 48rem !important;
+        margin-bottom: 3.5rem !important;
+    }
 
     .eng-seecon{
         zoom: 0.7;
@@ -686,6 +767,14 @@ ul{
         zoom: 0.8;
     }
 
+    .clientes{
+        zoom: 0.7;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
  }
 
 /* Medium devices (tablets, less than 992px)*/
@@ -720,10 +809,22 @@ ul{
         margin-top: -20rem;
     }
 
+    .clientes{
+        zoom: 0.8;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
  }
 
 /* Large devices (desktops, less than 1200px)*/
 @media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
 
     .form{
         margin-left: 5rem;
