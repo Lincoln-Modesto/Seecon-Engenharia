@@ -1,0 +1,767 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*-------------Main-----------*/
+
+.bg-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    background-image: url('../../images/estrutural.jpg');
+    height: 550px;
+    font-size: larger;
+    z-index: 1;
+}
+
+.bg-content{
+    display: block;
+    position: relative;
+    z-index: 99;
+    padding: 1.5rem;
+    top: 8rem;
+    left: 2rem;
+    color: var(--color-primary);
+    text-align: justify;
+}
+
+.bg-content span{
+    color: var(--color-primary);
+    font-size: large;
+    font-weight: 700;
+}
+
+.bg-content h1{ 
+    font-weight: 900;
+    color: #455A64;
+}
+
+.bg-content h6{
+    margin-top: 3rem;
+    color: #403C3C;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.button-wpp{
+    margin-top: 4rem;
+    background: #27B43E;
+    opacity: 0.9;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.button-wpp a{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.button-wpp a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.button-wpp:hover{
+    opacity: 1;
+}
+
+.button-wpp a:hover{
+    opacity: 1;
+    color: white;;
+}
+
+/*-------------REFORÇO-----------*/
+
+.reforco{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.reforco h2{
+    margin-top: 4rem;
+    margin-bottom: 3rem;  
+    font-weight: 900;
+    color: #455A64;
+}
+
+.reforco p{
+    text-align: justify;
+    line-height: 1.8;
+
+}
+
+.reforco-content{
+    display: flex;
+    align-items: center;
+}
+
+.reforco-content span{
+    color: var(--color-primary);
+    font-size: large;
+    font-weight: 700;
+}
+
+.reforco-content p{
+    text-align: justify;
+    margin-left: 2rem;
+    line-height: 1.8;
+}
+
+.img-diagnostica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 auto;
+}
+
+.img-diagnostica img{
+    width: 525;
+    height: 370px;
+}
+
+.estrutural-item{
+    height: 500;
+}
+
+.container-estrutural{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/*-------------COMO FUNCIONA----------*/
+
+.comoFunciona{
+    line-height: 1.8;
+}
+
+.comoFunciona h2{
+    margin-top: 4rem; 
+    font-weight: 900;
+    color: #455A64;
+    text-align: center;
+}
+
+.etapa-1{
+    display: flex;
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.etapa-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    text-align: justify;
+    color: #403C3C;
+}
+
+.etapa-content h4{
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+}
+
+.etapa-content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2rem;
+    text-align: justify;
+    color: #403C3C;
+}
+
+.etapa-content2 h4{
+    margin-top: -2rem;
+    margin-bottom: 3rem;
+}
+
+.separador{
+    height: 5px;
+    width: 960px;
+    background-color: #455A64;
+}
+
+.separador2{
+    height: 5px;
+    width: 960px;
+    background-color: #455A64;
+    margin-left: auto;
+}
+
+.orcamento{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.button-orcamento{
+    background: #455A64;
+    opacity: 0.95;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 20rem;
+    cursor: pointer;
+    color: white;
+}
+
+.button-orcamento a{
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+}
+
+.button-orcamento a:link{
+    text-decoration: none;
+}
+
+.button-orcamento:hover{
+    opacity: 1;
+}
+
+.numeros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #455A64;
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+
+.numeros h2{
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.numeros-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.card-numeros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-numeros h3{
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.card-numeros a{
+    cursor: pointer;
+}
+
+/*-------------PROJETOS-----------*/
+
+.projetos{
+    padding: 3rem;
+}
+
+.container-projetos{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.projetos h2{
+    font-weight: 900;
+    color:#455A64; 
+    margin-bottom: 2rem;
+}
+
+.projetos p{
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/*-------------ORCAMENTO-----------*/
+
+.valor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #455A64;
+    width: 100%;
+    height: 300px;
+}
+
+.valor h3{
+    font-weight: 900;
+    color:white; 
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.button-orcamento-white{
+    background: white;
+    opacity: 0.95;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 20rem;
+    cursor: pointer;
+    color: #455A64;
+}
+
+.button-orcamento-white a{
+    font-size: larger;
+    font-weight: 700;
+    color: #455A64;
+}
+
+.button-orcamento-white a:link{
+    text-decoration: none;
+    color: #455A64;
+}
+
+.button-orcamento-white:hover{
+    opacity: 1;
+}
+
+/*-------------SEECON E ABECE-----------*/
+
+.seecon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.content-seecon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-seecon h4{
+    font-weight: 900;
+    color: #455A64;
+    text-align: center;
+}
+
+.abece{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-------------CLIENTES-----------*/
+
+.container-cliente{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.clientes h2{
+    margin-bottom: 1rem;  
+    margin-top: 2rem;
+    font-weight: 900;
+    color: #455A64;
+    text-align: center;
+}
+
+.clientes-item{
+    border: 1px solid #9C9FA1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    width: 70rem;
+    padding: 1.5rem 2rem;
+}
+
+.clientes-cabecalho{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.clientes-cabecalho span{
+    color: #455A64;
+    font-size: large;
+    font-weight: 700;
+}
+
+.clientes-infos{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cliente-avaliacao{
+    color: #403C3C;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.stars{
+    margin-top: -1rem;
+}
+
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 452px) {
+
+    .orcamento{
+        display: none;
+    }
+
+    .bg-content{
+        zoom: 0.95;
+    }
+
+    .bg-content h1{
+        margin-bottom: 1rem ;
+    } 
+
+    .bg-main{
+        height: 400px;
+    }
+
+    .bg-content{
+        margin-top: -5rem !important;
+    }
+
+    .comofunciona1{
+        display: none;
+    }
+
+    .etapa-content{
+        margin-left: 0;
+    }
+
+    .seecon{
+        zoom: 0.4 !important;
+    }
+
+    .clientes-item{
+        width: 25rem !important;
+        margin-bottom: 3.5rem !important;
+    }
+
+    .button-wpp{
+        margin-top: 1rem ;
+    }
+
+    .reforco{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .projetos{
+        padding: 2rem;
+    }
+
+    .numeros{
+        zoom: 0.7 !important;
+    }
+}
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+    header{
+        zoom: 0.8;
+    }
+
+    .bg-main{
+        zoom: 0.7;
+        margin-top: 6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+    }
+
+    .reforco-content p {
+        margin-left: 0 !important;
+    }
+
+    .bg-main h6{
+        margin-top: 1rem;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .bg-content{
+        margin-top: -3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        margin-bottom: 3rem;
+    }
+
+
+    .img-diagnostica{
+        zoom: 0.8;
+        margin-bottom: 2rem;
+    }
+
+    .reforco{
+        zoom: 0.7;
+    }
+
+    .container-estrutural{
+        margin-top: 1rem !important;
+    }
+
+    .reforco-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reforco h2{
+        margin-top: 1rem !important;
+    }
+
+    .comoFunciona{
+        zoom: 0.7;
+    }
+
+    .numeros{
+        zoom: 0.8;
+    }
+
+    .comoFunciona h2{
+        margin-top: 1rem !important;
+    }
+
+    .comofunciona1{
+        zoom: 0.55;
+    }
+
+    .etapa-content h4 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .projetos{
+        zoom: 0.7;
+    }
+
+    .valor{
+        zoom: 0.7;
+    }
+
+    .button-orcamento{
+        width: 70%;
+        padding: 0.5rem;
+    }
+
+    .orcamento {
+        margin-top: 0.5rem;
+    }
+
+    .clientes{
+        zoom: 0.7;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+    .clientes-item{
+        width: 37rem ;
+        margin-bottom: 3rem;
+    }
+
+    .seecon{
+        zoom: 0.6;
+    }
+
+    .abece{
+        zoom: 0.6;
+        margin-left: 1rem;
+    }
+
+    #sergipe{
+        zoom: 0.8;
+    }
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .clientes-item{
+        width: 48rem !important;
+        margin-bottom: 3.5rem !important;
+    }
+
+    .reforco-content p {
+        margin-left: 0 !important;
+    }
+
+    .bg-main{
+        zoom: 0.8;
+    }
+
+    .img-diagnostica{
+        zoom: 0.8;
+        margin-bottom: 2rem;
+    }
+
+    .reforco{
+        zoom: 0.8;
+    }
+
+    .container-estrutural{
+        margin-top: 1rem !important;
+    }
+
+    .reforco-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reforco h2{
+        margin-top: 1rem !important;
+    }
+
+    .comoFunciona{
+        zoom: 0.8;
+    }
+
+    .comoFunciona h2{
+        margin-top: 1rem !important;
+    }
+
+    .comofunciona1{
+        zoom: 0.7;
+    }
+
+    .etapa-content h4 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .projetos{
+        zoom: 0.8;
+    }
+
+    .valor{
+        zoom: 0.8;
+    }
+
+    .button-orcamento{
+        width: 70%;
+        padding: 0.5rem;
+    }
+
+    .orcamento {
+        margin-top: 0.5rem;
+    }
+
+    .clientes{
+        zoom: 0.7;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+    .seecon{
+        zoom: 0.7;
+    }
+
+    .abece{
+        zoom: 0.7;
+    }
+    
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+    .bg-main{
+        zoom: 0.8;
+    }
+
+    .img-diagnostica{
+        zoom: 0.8;
+    }
+
+    .reforco{
+        zoom: 0.8;
+    }
+
+    .comoFunciona{
+        zoom: 0.8;
+    }
+
+    .projetos{
+        zoom: 0.8;
+    }
+
+    .valor{
+        zoom: 0.8;
+    }
+
+    .button-orcamento{
+        width: 80%;
+    }
+
+    .clientes{
+        zoom: 0.8;
+    }
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+    .seecon{
+        zoom: 0.8;
+    }
+
+    .abece{
+        zoom: 0.8;
+    }
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    .container-cliente{
+        margin-left: 0rem;
+    }
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px){ 
+   
+ }

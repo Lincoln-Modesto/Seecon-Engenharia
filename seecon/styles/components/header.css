@@ -1,0 +1,163 @@
+
+
+/*-------------Header-----------*/
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    z-index: 999;
+    filter: drop-shadow(0px 4px 4px rgba(69, 90, 100, 0.45));
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+}
+
+#menu{
+    list-style: none;
+    display: flex; 
+    padding: 1rem;
+    justify-content: flex-end;
+    text-align: center;
+    line-height: 0.9rem;
+    margin-bottom: 0;
+}
+
+.item-list {
+    display: inline-block;
+    position: relative;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.header-list li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #F0403A;
+    position: absolute;
+    left: 0;
+    bottom: -2rem;
+    transition: 0.5s;
+}
+
+.header-list li:hover::after{
+    width: 100%;
+}
+
+.item-list a small{
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 100%;
+    color: var(--color-secondary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item-list a:link{
+    text-decoration:none;
+    color: var(--color-secondary);
+}
+
+#logo{
+    margin: 0;
+    top: 0.2rem;
+    height: 3rem;
+    margin-left: 2rem;
+}
+
+#btn-mobile{
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--color-secondary);
+    display: none;
+}
+
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px){ 
+
+    #menu{
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        right: 0px;
+        z-index: 9999;
+        justify-content: flex-start;
+        padding: 0;
+        visibility: hidden;
+    }
+
+    #nav.active .item-list{
+        display: block;
+        background-color: white;
+        margin-right: 0;
+        padding: 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
+
+    #nav.active #menu{
+        display: block;
+        visibility: visible;
+    }
+  
+    #nav.active .item-list:hover{
+        width: 100%;
+        background-color:silver;
+        height: 100%;
+        transition: 0.5s;
+    }
+  
+    .header-list li::after {
+        display: none;
+    }
+
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        gap: .5rem;
+        border: none;
+        outline:none;
+    }
+
+    #hamburguer{
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #hamburguer::after,  #hamburguer::before{
+        content: '';
+        display: block;
+        width: 22px;
+        height: 2px;
+        background-color: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer{
+        border-top-color: transparent;
+        margin-top: -5px;
+    }
+
+    #nav.active #hamburguer::after{
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburguer::before{
+        transform: rotate(-135deg);
+        top: 7px;
+    }
+ }

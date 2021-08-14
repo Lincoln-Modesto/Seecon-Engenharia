@@ -1,0 +1,246 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*-------------Hero-----------*/
+
+title{
+    display: none;
+}
+
+#hero{
+    background-image: url("../../images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#hero h2{
+    color: white;
+    margin-left: 2rem;
+    font-weight: 700;
+}
+
+.button{
+    margin-left: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 3rem;
+    color: var(--color-primary);
+    cursor: pointer;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+}
+
+.infos-hero{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infos-hero a:link{
+    text-decoration: none;
+} 
+
+/*-------------Main-----------*/
+
+.main-home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #455A64;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.main-home h2{
+    font-weight: 900;
+}
+
+.main-home ul{
+    margin-top: 1rem;
+}
+
+.main-home ul li{
+    color: #403C3C;
+    line-height: 2rem;
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.main-text{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+.main-text p{
+    margin-top: 1rem;
+}
+
+.main-text h3{
+    color: #403C3C;
+}
+
+.main-text span{
+    font-weight: 800;
+    color: #455A64;
+}
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)  {
+
+    .button{
+        width: 30%;
+    }
+
+    header{
+        zoom: 0.8
+    }
+
+    #hero{
+        zoom: 0.5;
+        margin-top: 5rem;
+    }
+
+    .texts-hero{
+        zoom: 0.9;
+    }
+
+    .infos-hero{
+        top: 3rem;
+    }
+
+    .main-home{
+        zoom: 0.7;   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    .main-list{
+        zoom: 0.85;
+    }
+
+    .main-home img{
+        margin-bottom: 2rem;
+        width: 510px;
+        height: 380px;
+    }
+
+    .main-text{
+        zoom: 0.65;        
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    } 
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+    #hero{
+        zoom: 0.7;
+        background-position: -50px;
+    }
+
+    .texts-hero{
+        zoom: 0.9;
+    }
+
+    .infos-hero{
+        top: 3rem;
+    }
+
+    .main-home{
+        zoom: 0.7;   
+    }
+
+    .main-list{
+        zoom: 0.85;
+        margin-left: 2rem;
+    }
+
+    .main-home img{
+        margin-left: 2rem;
+        width: 510px;
+        height: 380px;
+    }
+
+    .main-text{
+        zoom: 0.65;        
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    } 
+
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+    #hero{
+        zoom: 0.7;
+    }
+
+    .texts-hero{
+        margin-bottom: 0;
+    }
+
+    .main-home{
+        zoom: 0.7 
+    }
+
+    .main-home img{
+        zoom: 0.7;
+    }
+
+    .main-text{
+        zoom: 0.7;
+    } 
+
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    #hero{
+        zoom: 0.9;
+    }
+
+    .main-home{
+        zoom: 0.8 
+    }
+
+    .main-home img{
+        zoom: 0.9
+    }
+
+    .main-text{
+        zoom: 0.9;
+    } 
+
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px){ 
+   
+ }
+
+/*XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width*/

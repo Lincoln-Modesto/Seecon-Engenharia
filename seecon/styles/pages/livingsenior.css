@@ -1,0 +1,539 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*-------------Main-----------*/
+
+#h1-senior{
+    display: none;
+}
+
+.bg-main{
+    display: flex;
+    margin-top: 5rem;
+    background-image: url('../../images/img-senior-living.jpg');
+    height: 550px;
+    z-index: 1;
+}
+
+.bg-content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+    padding: 1.5rem;
+    top: -1.5rem;
+    margin-left: auto;
+    color: var(--color-primary);
+    text-align: justify;
+}
+
+.bg-content span{
+    color: var(--color-primary);
+    font-size: large;
+    font-weight: 700;
+}
+
+.bg-content h2{
+    margin-bottom: 2rem;  
+    font-weight: 900;
+    color: #455A64;
+}
+
+.bg-content h6{
+    margin-top: 1rem;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    background-color: #0C4458 ;
+    padding: 1.5rem;
+}
+
+.button-wpp{
+    margin-top: 4rem;
+    background: #27B43E;
+    opacity: 0.9;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    width: 20rem;
+    cursor: pointer;
+}
+
+.button-wpp a{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.button-wpp a:link{
+    text-decoration: none;
+}
+
+.button-wpp:hover{
+    opacity: 1;
+}
+
+
+/*-----------SECTION - CASAL------------*/
+
+.img-casal{
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+.senior-list{
+    font-weight: 600;
+    color: #403C3C;
+    font-size: medium;
+    line-height: 2rem;
+}
+
+.casal{
+    width: 350px;
+    height: 270px;
+}
+
+#section-texts{
+    display: flex;
+    margin-bottom: -2rem;
+}
+
+.senior-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.senior-texts p{
+    margin-right: 3rem;
+    text-align: justify;
+}
+
+.senior-texts span{
+    font-weight: 600;
+    color: #403C3C;
+    font-size: medium;
+}
+/*-----------SECTION - SLIDER------------*/
+
+.slider{
+    display:flex;
+    justify-content: center;
+	align-items: center;
+    width: 100%;
+    height: 580px;
+    background: linear-gradient(180deg, rgba(125, 154, 162, 0.129) 33.07%, rgba(220, 235, 240, 0) 100%);
+}
+
+.slide-title{
+    text-align: center;
+    font-weight: 900;
+    color: #455A64;
+    padding: 3rem;
+}
+
+.card-img{ 
+    width: 785px;
+    height: 450px;
+    margin-left: 3rem;
+}   
+
+.card-body{
+    text-align: center;
+}
+
+/*-------------Form-----------*/
+
+.main-form{
+    z-index: 999;
+    margin-top: 3rem;
+}
+
+.main-form h2{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 900;
+    color: #455A64;
+    margin-bottom: 2rem;
+}
+
+.main-form-content{
+    display: flex;
+}
+
+.form{
+    width: 60%;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    padding: 2rem;
+    background: #FFFFFF;
+    border: 2px solid #CACDCF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.form h6{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #455A64;
+}
+
+.form-infos h5{
+    display: block;
+    max-width: 612px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#button-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-send {
+    background: #455A64;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 1rem;
+}
+
+/*-------------Form-infos-----------*/
+
+#senior{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.form-infos h4{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    color: #455A64;
+}
+
+.form-infos h6{
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    color: #455A64;
+}
+
+.form-infos span{
+    text-align: center;
+    color: white;
+}
+
+.estrutural{
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 535px;
+    height: 210px;
+}
+
+.button-wpp{
+    background: #27B43E;
+    opacity: 0.9;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.button-wpp a:link{
+    text-decoration: none;
+}
+
+.button-wpp:hover{
+    opacity: 1;
+}
+
+.container-form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wpp a{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.bg-aqua{
+    height: 380px;
+    width: 100%;
+    background: linear-gradient(180deg, #455A64 0%, #403C3C 100%);
+    margin-top: -24rem;
+}
+
+/*-------------MEDIA QUERIES < 380px-----------*/
+
+@media (max-width: 412px) {
+
+    .bg-content h6{
+        display: none;
+    }
+
+    .bg-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .form{
+        margin-left: -2.5rem !important;
+    }
+
+}
+
+/*-------------MEDIA QUERIES-----------*/
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px)  {
+  
+    header{
+        zoom: 0.8;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .form{
+        margin-left: -3.5rem;
+        width: 130% !important;
+    }
+
+    .form-infos{
+       zoom: 0.8;
+    }
+
+    .main-form-content{
+        zoom: 0.9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-main{
+        zoom: 0.5;
+        margin-top: 4rem;
+    }
+
+    .bg-content{
+        zoom: 0.9;
+        margin-top: 3rem
+    }
+
+    #senior-logo{
+        margin-top: 3.5rem;
+        zoom: 0.8;
+    }
+
+    .img-casal{
+        display: none;
+    }
+
+    .senior-texts{
+        margin-left: 2rem;
+        margin-right: 3rem;
+        display: flex;
+        margin-top: 2rem;
+        zoom: 0.8;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .senior-texts p{
+        margin-right: 0;
+    }
+
+    #senior-slide{
+        margin-top: 2rem;
+        zoom: 0.6;
+    }
+
+    .bg-aqua{
+        margin-top: -20.5rem;
+        height: 330px;
+    }
+
+    .main-form{
+        zoom: 0.7;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .form-infos{
+        margin-top: -5rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .form-infos h6{
+        display: none;
+    }
+
+    .form-infos h4{
+        display: none;
+    }
+
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .bg-main{
+        zoom: 0.60;
+    }
+
+    #senior-logo{
+        margin-top: 3.5rem;
+        zoom: 0.8;
+    }
+
+    .img-casal{
+        display: none;
+    }
+
+    .senior-texts{
+        margin-left: 2rem;
+        margin-right: 3rem;
+        display: flex;
+        margin-top: 2rem;
+        zoom: 0.8;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .senior-texts p{
+        margin-right: 0;
+    }
+
+    #senior-slide{
+        margin-top: 2rem;
+        zoom: 0.7;
+    }
+
+    .bg-aqua{
+        margin-top: -17rem;
+        height: 330px;
+    }
+
+    .form{
+        margin-left: 2rem;
+        width: 95% !important;
+    }
+
+    .form-infos{
+        margin-top: 6rem;
+    }
+
+    .main-form{
+        zoom: 0.7;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+
+    .bg-main{
+        zoom: 0.8;
+    }
+
+    #casal{
+        height: 300px;
+        width: 350px;
+    }
+
+    .form{
+        margin-left: 5rem;
+        width: 75%;
+    }
+
+    .form-infos{
+        margin-top: 5rem;
+    }
+
+    .main-form{
+        zoom: 0.8;
+    }
+
+    .button-wpp{
+        zoom: 0.8;
+    }
+
+    .senior-texts{
+        margin-left: 2rem;
+        display: block;
+        margin-top: 2rem;
+        zoom: 0.92;
+    }
+
+    .senior-list{
+        margin-right: 3rem;
+    }
+
+    #senior-slide{
+        zoom: 0.8;
+    }
+
+    .bg-aqua{
+        margin-top: -20rem;
+    }
+
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+
+    .form{
+        margin-left: 5rem;
+        width: 70%;
+    }
+
+    .senior-texts{
+        margin-top: 2rem;
+    }
+
+    .senior-list{
+        margin-right: 4rem;
+    }
+ }
+
+/* X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1200px){ 
+   
+ }
