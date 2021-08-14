@@ -292,7 +292,7 @@ body{
 
 /*-------------MEDIA QUERIES < 380px-----------*/
 
-@media (max-width: 380px) {
+@media (max-width: 412px) {
 
     .bg-content h6{
         display: none;
