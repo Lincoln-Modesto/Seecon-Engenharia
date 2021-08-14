@@ -69,10 +69,16 @@ main{
 
 .button-wpp a:link{
     text-decoration: none;
+    color: white;
 }
 
 .button-wpp:hover{
     opacity: 1;
+}
+
+.button-wpp a:hover{
+    opacity: 1;
+    color: white;;
 }
 
 /*-------------REFORÇO-----------*/
