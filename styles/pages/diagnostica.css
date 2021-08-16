@@ -149,6 +149,13 @@ ul{
     display: flex;
 }
 
+#itens-container{
+    padding: 0 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+}
+
 .vist-container h4{
     font-weight: 700;
     color: #455A64; 
@@ -158,17 +165,14 @@ ul{
 .vist-item{
     display: flex;
     margin-bottom: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem; 
     padding: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start !important;
     font-weight: 600;
 }
 
 .vist-item p{
     margin-top: 1rem;
-    margin-left: 0.5rem;
     color: #455A64; 
 }
 
@@ -209,7 +213,6 @@ ul{
     border: 1px solid #9C9FA1;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
     font-weight: 600;
     margin-left: 3rem;
     margin-bottom: 2rem;
@@ -561,6 +564,10 @@ ul{
         margin-bottom: 3.5rem !important;
     }
 
+    .container-form-info{
+        zoom: 0.8;
+    }
+
 }
 
 /*-------------MEDIA QUERIES-----------*/
@@ -594,7 +601,7 @@ ul{
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 675px;
+        height: 375px;
     }
 
     .vist-container{
@@ -602,7 +609,7 @@ ul{
         margin-right: 1rem;
     }
 
-    .vist-itens{
+    #itens-container{
         display: none;
     }
 
@@ -611,9 +618,7 @@ ul{
     }
 
     .eng-seecon{
-        justify-content: center;
-        position: relative;
-        bottom: 0; 
+        display: none;
     }
 
     .bg-blue{
@@ -627,7 +632,13 @@ ul{
     }
 
     .button-wpp{
-        zoom: 0.8;
+        zoom: 0.9;
+        width: 80%;
+    }
+
+    .container-form-info{
+        margin-left: -2rem;
+        justify-content: center;
     }
 
     .form-infos{
@@ -702,7 +713,6 @@ ul{
         margin-bottom: 3rem;
     }
 
-
  }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -764,7 +774,8 @@ ul{
     }
 
     .button-wpp{
-        zoom: 0.8;
+        zoom: 1;
+        margin-left: -2rem;
     }
 
     .clientes{

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,61 +17,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <!----header-->
     <header>
         <div class="content">
             <img src="./images/logo.png" class="img-fluid" id="logo" alt="logo seecon">
             <nav id="nav">
-                <button 
-                aria-label="Abrir menu"
-                aria-haspopup="true" 
-                aria-controls="menu" 
-                aria-expanded="false"
-                id="btn-mobile">Menu <span id="hamburguer"></span></button>
-                    <div class="header-content">
-                        <ul class="header-list" id="menu" role="menu">
-                            <li class=" item-list">
-                                <a href="index.html">
-                                    <small>Home</small>
-                                </a>
-                            </li>
-                            <li class=" item-list">
-                                <a href="estrutural.html">
-                                    <small>Engenharia Estrutural</small>
-                                </a>
-                            </li>
-                            <li class="item-list">
-                                <a href="diagnostica.html">
-                                    <small>Engenharia Diagnóstica</small>
-                                </a>
-                            </li>
-                            <li class="item-list">
-                                <a href="seniorliving.html">
-                                    <small>Sênior Living</small>
-                                </a>
-                            </li>
-                            <li class=" item-list">
-                                <a href="contato.html">
-                                    <small>Contato</small>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+                <button aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false"
+                    id="btn-mobile">Menu <span id="hamburguer"></span></button>
+                <div class="header-content">
+                    <ul class="header-list" id="menu" role="menu">
+                        <li class=" item-list">
+                            <a href="index.html">
+                                <small>Home</small>
+                            </a>
+                        </li>
+                        <li class=" item-list">
+                            <a href="estrutural.html">
+                                <small>Engenharia Estrutural</small>
+                            </a>
+                        </li>
+                        <li class="item-list">
+                            <a href="diagnostica.html">
+                                <small>Engenharia Diagnóstica</small>
+                            </a>
+                        </li>
+                        <li class="item-list">
+                            <a href="seniorliving.html">
+                                <small>Sênior Living</small>
+                            </a>
+                        </li>
+                        <li class=" item-list">
+                            <a href="contato.html">
+                                <small>Contato</small>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-    
+
     <!----hero-->
     <section>
         <title>Contato</title>
         <div class='img-fluid' id="hero">
             <div class="infos-hero col-sm-7 col-12">
                 <div class="texts-hero">
-                    <h2>Vai construir ou reformar? </h2>
-                    <br>
-                    <h2>Precisa de laudos de vistorias ou <br>
-                        inspeções prediais?</h2>
+                    <h2>Vai construir ou reformar?</h2>
+                    <h2>Precisa de vistorias e laudos?</h2>
+                    <h2>Sua edificação precisa de um reparo estrutural?</h2>
                     <br>
                 </div>
                 <a href="#" class="button">Entre em contato</a>
@@ -81,12 +78,12 @@
 
     <!----main-->
     <main>
-        
+
         <section class="main-home">
             <h2>Clientes comerciais</h2>
             <div class="clients">
                 <img src="./images/clientes.png" alt="logo clientes">
-                <img id="clients-2"src="./images/clientes2.png" alt="logo clientes">
+                <img id="clients-2" src="./images/clientes2.png" alt="logo clientes">
             </div>
         </section>
 
@@ -94,11 +91,13 @@
             <h2>Entre em contato e solicite um orçamento!</h2>
             <div class="main-form-content">
                 <div class="col-6">
-                    <form action="https://api.staticforms.xyz/submit" method="post" class="form form-group needs-validation" novalidate>
+                    <form action="https://api.staticforms.xyz/submit" method="post"
+                        class="form form-group needs-validation" novalidate>
                         <h6>Entre em contato</h6>
                         <input type="hidden" name="accessKey" value="c5321e9d-b753-4b2f-862b-7174b08c2b1b">
-                        <input type="hidden" name="redirectTo" value="https://lincoln-modesto.github.io/Seecon-Engenharia/contato.html" >
-                       
+                        <input type="hidden" name="redirectTo"
+                            value="https://lincoln-modesto.github.io/Seecon-Engenharia/contato.html">
+
                         <div class="form-group">
                             <label for="validationCustom01">Nome</label>
                             <input class="form-control" type="text" id="validationCustom01" name="name" required>
@@ -131,7 +130,8 @@
                         </div>
                         <div class="form-group">
                             <label for="validationCustom04">Mensagem</label>
-                            <textarea class="form-control" id="validationCustom04" type="text" rows="3" name="message" required></textarea >
+                            <textarea class="form-control" id="validationCustom04" type="text" rows="3" name="message"
+                                required></textarea>
                             <div class="valid-feedback">
                                 Tudo certo!
                             </div>
@@ -145,24 +145,26 @@
                     </form>
                 </div>
                 <div class="col-6">
-                    <div class="form-infos" >
+                    <div class="form-infos">
                         <h4 id="h4-form">Possuímos uma equipe pronta para te atender da melhor maneira possível!</h4>
                         <br>
-                        <h4>Mande uma mensagem mensagem no nosso <span>WhatsApp</span> ou entre em contato através do formulário</h4>
-                       <div class="container">    
+                        <h4>Mande uma mensagem mensagem no nosso <span>WhatsApp</span> ou entre em contato através do
+                            formulário</h4>
+                        <div class="container">
                             <div class="button-wpp">
-                                <a href="https://url.gratis/dVQdHa" target="_blank"> 
+                                <a href="https://api.whatsapp.com/send?phone=+55799172-1777" target="_blank">
                                     <img src="./images/whatsapp.png" alt="logo whatsapp"></img>
                                     Fale conosco
                                 </a>
                             </div>
-                       </div>
-                       <h4 class="text-white text-social-medias">Acesse nossas redes e não perca nenhum dos nossos conteúdos!</h4>
-                       <div class="info-icons">
+                        </div>
+                        <h4 class="text-white text-social-medias">Acesse nossas redes e não perca nenhum dos nossos
+                            conteúdos!</h4>
+                        <div class="info-icons">
                             <a>
                                 <img src="./images/Facebook.png" alt="logo facebook">
                             </a>
-                            <a href="https://www.instagram.com/seecon_engenharia/" >
+                            <a href="https://www.instagram.com/seecon_engenharia/">
                                 <img src="./images/instagram.png" alt="logo instagram">
                             </a>
                             <a>
@@ -171,18 +173,18 @@
                             <a>
                                 <img src="./images/youtube.png" alt="logo youtube">
                             </a>
-                       </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-            <div class="bg-blue"></div>
+        <div class="bg-blue"></div>
     </main>
 
-      <!----footer-->
-     <footer>
+    <!----footer-->
+    <footer>
         <div class="footer">
-            <div class="footer-content">   
+            <div class="footer-content">
                 <h5>Seecon Engenharia e Soluções</h5>
                 <p>Rua Manoel Andrade, nº 1755, Bairro Coroa do Meio, Aracaju/SE</p>
                 <div class="phones">
@@ -190,7 +192,7 @@
                     <p>(79) 99145-9081</p>
                 </div>
                 <p>contato@seeconengenharia.com</p>
-            </div>    
+            </div>
             <div class="footer-icons">
                 <a href="https://url.gratis/dVQdHa" target="_blank">
                     <img src="./images/whatsapp.png" alt="logo whatsapp">
@@ -207,7 +209,7 @@
                 <a>
                     <img src="./images/youtube.png" alt="logo youtube">
                 </a>
-            </div> 
+            </div>
         </div>
         <div class="created">
             <a href="https://github.com/Lincoln-Modesto" target="_blank">
@@ -217,6 +219,7 @@
         </div>
     </footer>
 </body>
-<script src="js/buttonMobile.js" type="text/javascript"></script> 
-<script src="js/formValidation.js" type="text/javascript"></script> 
+<script src="js/buttonMobile.js" type="text/javascript"></script>
+<script src="js/formValidation.js" type="text/javascript"></script>
+
 </html>

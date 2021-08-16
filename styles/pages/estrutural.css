@@ -26,7 +26,7 @@ main{
     position: relative;
     z-index: 99;
     padding: 1.5rem;
-    top: 8rem;
+    top: 6rem;
     left: 2rem;
     color: var(--color-primary);
     text-align: justify;
@@ -131,6 +131,8 @@ main{
 }
 
 .container-estrutural{
+    display: flex;
+    justify-content: space-around;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
@@ -419,8 +421,11 @@ main{
     margin-top: -1rem;
 }
 
-
-/*-------------MEDIA QUERIES-----------*/
+@media (max-width: 315px) {
+    #button1{
+        display: none;
+    }
+}
 
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 452px) {
@@ -463,7 +468,7 @@ main{
     }
 
     .button-wpp{
-        margin-top: 1rem ;
+        margin-top: 1rem;
     }
 
     .reforco{
@@ -478,6 +483,11 @@ main{
     .numeros{
         zoom: 0.7 !important;
     }
+
+    .container-estrutural img{
+        zoom: 0.45;
+    }
+ 
 }
 
 /*-------------MEDIA QUERIES-----------*/
@@ -607,6 +617,15 @@ main{
     #sergipe{
         zoom: 0.8;
     }
+
+    .container-estrutural img{
+        zoom: 0.60;
+    }
+
+    .atr{
+        display: none;
+    }
+
  }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -697,7 +716,10 @@ main{
     .abece{
         zoom: 0.7;
     }
-    
+
+    .container-estrutural img{
+        zoom: 0.7;
+    }
  }
 
 /* Medium devices (tablets, less than 992px)*/
@@ -745,6 +767,10 @@ main{
 
     .abece{
         zoom: 0.8;
+    }
+
+    .container-estrutural img{
+        zoom: 0.85;
     }
  }
 

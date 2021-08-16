@@ -26,7 +26,8 @@ title{
 #hero h2{
     color: white;
     margin-left: 2rem;
-    font-weight: 700;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }
 
 .button{
@@ -106,7 +107,7 @@ title{
 @media (max-width: 575.98px)  {
 
     .button{
-        width: 30%;
+        width: 35%;
     }
 
     header{

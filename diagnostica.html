@@ -13,13 +13,12 @@
     <link rel="stylesheet" href="./styles/components/footer.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" type="text/css" href="./styles/lightslider.css"/>
-     <!----Jquery-->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/lightslider.js"></script>
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+     <!----Jquery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
 </head>
 <body>
       <!----header-->
@@ -71,11 +70,10 @@
             <div class="bg-main">
                     <div class="bg-content">
                         <h1>Engenharia Diagnóstica</h1>
-                        <h6>A equipe da <span>SEECON ENGENHARIA</span> segue rigorosas normas nacionais e internacioanis 
-                            quanto a vistoria de imóveis comerciais e residenciais. Realizamos diversos tipos de 
-                            vistorias para construtoras, condomínios e lojas comerciais. </h6>
+                        <h6>A equipe da <span>SEECON ENGENHARIA</span> é referência em laudos de vistoria e inspeção para condomínios, 
+                            construtoras e lojas comerciais. Sempre com excelência nos seus em todos os seus serviços!</h6>
                         <div class="button-wpp-inicial">
-                            <a href="https://url.gratis/dVQdHa" target="_blank"> 
+                            <a href="https://api.whatsapp.com/send?phone=+55799172-1777" target="_blank"> 
                                 <img src="./images/whatsapp.png"></img>
                                 Fale conosco
                             </a>
@@ -152,7 +150,7 @@
                         <p>Este laudo é válido para emissão de certidão das condições de uso e conservação da edificação vistoriada,
                             tornando mais segura a habitação.</p>
                     </div>
-                    <div class="col-sm-6 col-12 vist-itens">
+                    <div class="col-sm-6 col-12" id="itens-container">
                         <div class="vist-item">
                             <img src="images/doc.jpg">
                             <p>Atestado de desempenho e integridade dos subsistemas prediais</p>
@@ -167,14 +165,14 @@
                         </div>
                         <div class="vist-item">
                             <img src="images/doc.jpg">
-                            <p>Atestado de desempenho e integridade dos subsistemas prediais</p>
+                            <p>Laudo de vistoria predial de condomínio para Emurb</p>
                         </div>
                     </div>
                 </div>
         </section>
 
         <section class="laudos">
-                <h2>Últimos laudos  de vistorias e inspeções</h2>
+                <h2>Últimos laudos de vistorias e inspeções prediais</h2>
                     <div class="slider">
                         <ul id="autoWidth" class="cs-hidden">
                             <li class="item-a">
@@ -228,6 +226,16 @@
                                     </div>
                                 </div>
                             </li>
+
+                            <li class="item-a">
+                                <div class="card-client">
+                                    <img class="card-img" src="images/silvio-romero.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    <p class="card-text">Edf. Silvio Romero</p>
+                                    </div>
+                                </div>
+                            </li>
+
                             <li class="item-a">
                                 <div class="card-client">
                                     <img class="card-img" src="images/edf-Alfredo.jpg" alt="Card image cap">
@@ -281,6 +289,14 @@
                                     <img class="card-img" src="images/mansao-eduardo-fonseca.jpg" alt="Card image cap">
                                     <div class="card-body">
                                     <p class="card-text">Mansão Eduardo Fonseca</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-a">
+                                <div class="card-client">
+                                    <img class="card-img" src="images/boca.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                    <p class="card-text">Cond. Boca da Barra</p>
                                     </div>
                                 </div>
                             </li>
@@ -433,6 +449,7 @@
                             </p>
                         </div>
                     </li>
+                </ul>
             </div>
         </section>
 
@@ -539,7 +556,7 @@
                         <div class="container-form-info">    
                             <span>Mande uma mensagem mensagem no nosso WhatsApp</span>
                             <div class="button-wpp">
-                                <a href="https://url.gratis/dVQdHa" target="_blank"> 
+                                <a href="https://api.whatsapp.com/send?phone=+55799172-1777" target="_blank"> 
                                     <img src="./images/whatsapp.png"></img>
                                     Fale conosco
                                 </a>
@@ -564,7 +581,7 @@
                 <p>contato@seeconengenharia.com</p>
             </div>    
             <div class="footer-icons">
-                <a href="https://url.gratis/dVQdHa" target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=+55799172-1777" target="_blank">
                     <img src="./images/whatsapp.png" alt="logo whatsapp">
                 </a>
                 <a>
