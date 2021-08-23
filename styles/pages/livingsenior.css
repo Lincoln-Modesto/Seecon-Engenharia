@@ -2,8 +2,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
-    overflow-x: hidden;
+body {
+	overflow-x:hidden;
 }
 
 /*-------------Main-----------*/
@@ -14,6 +14,7 @@ body{
 
 .bg-main{
     display: flex;
+    display: -webkit-flex;
     margin-top: 5rem;
     background-image: url('../../images/img-senior-living.jpg');
     height: 550px;
@@ -22,6 +23,7 @@ body{
 
 .bg-content{
     display: flex;
+    display: -webkit-flex;
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -102,11 +104,13 @@ body{
 
 #section-texts{
     display: flex;
+    display: -webkit-flex;
     margin-bottom: -2rem;
 }
 
 .senior-texts{
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center; 
 }
@@ -125,6 +129,7 @@ body{
 
 .slider{
     display:flex;
+    display: -webkit-flex;
     justify-content: center;
 	align-items: center;
     width: 100%;
@@ -166,6 +171,7 @@ body{
 
 .main-form-content{
     display: flex;
+    display: -webkit-flex;
 }
 
 .form{
@@ -199,6 +205,7 @@ body{
 
 #button-form{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     justify-content: center;
 }
@@ -219,6 +226,7 @@ body{
 
 #senior{
    display: flex;
+   display: -webkit-flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -272,6 +280,7 @@ body{
 
 .container-form-info{
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -300,6 +309,7 @@ body{
 
     .bg-content{
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -335,6 +345,7 @@ body{
     .main-form-content{
         zoom: 0.9;
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -363,6 +374,7 @@ body{
         margin-left: 2rem;
         margin-right: 3rem;
         display: flex;
+        display: -webkit-flex;
         margin-top: 2rem;
         zoom: 0.8;
         flex-direction: column;
@@ -427,6 +439,7 @@ body{
         margin-left: 2rem;
         margin-right: 3rem;
         display: flex;
+        display: -webkit-flex;
         margin-top: 2rem;
         zoom: 0.8;
         flex-direction: column;

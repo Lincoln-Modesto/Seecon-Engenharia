@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://www.seeconengenharia.com/index.html</loc>
+  <lastmod>2021-08-17T18:47:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.seeconengenharia.com/estrutural.html</loc>
+  <lastmod>2021-08-17T18:47:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.seeconengenharia.com/diagnostica.html</loc>
+  <lastmod>2021-08-17T18:47:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.seeconengenharia.com/seniorliving.html</loc>
+  <lastmod>2021-08-17T18:47:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.seeconengenharia.com/contato.html</loc>
+  <lastmod>2021-08-17T18:47:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

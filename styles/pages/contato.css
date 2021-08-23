@@ -2,6 +2,11 @@
     font-family: 'Montserrat', sans-serif;  
 }
 
+body {
+
+	overflow-x: hidden;
+}
+
 /*-------------Hero-----------*/
 
 title{
@@ -16,6 +21,7 @@ title{
     width: 100%;
     margin-top: 3.5rem;
     display: flex;
+    display: -webkit-flex;
     align-items: center;
 }
 
@@ -43,6 +49,7 @@ title{
 .infos-hero{
     height: max-content;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -106,6 +113,7 @@ title{
 
 .main-form-content{
     display: flex;
+    display: -webkit-flex;
 }
 
 .form{
@@ -143,6 +151,7 @@ title{
 
 #button-form{
     display: flex;
+    display: -webkit-flex;
     align-items: center;
     justify-content: center;
 }
@@ -197,6 +206,7 @@ title{
 
 .container{
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
 }
@@ -296,6 +306,7 @@ title{
 
     .clients{
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -312,6 +323,7 @@ title{
     .main-form-content{
         zoom: 0.9;
         display: flex;
+        display: -webkit-flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;

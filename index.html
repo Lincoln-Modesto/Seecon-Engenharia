@@ -16,103 +16,107 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-
+    <script src="./js/imageController.js" type="text/javascript"></script>
 </head>
 
-    <body>
+<body>
     <!----header-->
-        <header>
-            <div class="content">
-                <img src="./images/logo.png" class="img-fluid" id="logo" alt="logo seecon">
-                <nav id="nav">
-                    <button 
-                    aria-label="Abrir menu"
-                    aria-haspopup="true" 
-                    aria-controls="menu" 
-                    aria-expanded="false"
+    <header>
+        <div class="content">
+            <img src="./images/logo.png" class="img-fluid" id="logo" alt="logo seecon">
+            <nav id="nav">
+                <button aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false"
                     id="btn-mobile">Menu <span id="hamburguer"></span></button>
-                        <div class="header-content">
-                            <ul class="header-list" id="menu" role="menu">
-                                <li class=" item-list">
-                                    <a href="index.html">
-                                        <small>Home</small>
-                                    </a>
-                                </li>
-                                <li class=" item-list">
-                                    <a href="estrutural.html">
-                                        <small>Engenharia Estrutural</small>
-                                    </a>
-                                </li>
-                                <li class="item-list">
-                                    <a href="diagnostica.html">
-                                        <small>Engenharia Diagnóstica</small>
-                                    </a>
-                                </li>
-                                <li class="item-list">
-                                    <a href="seniorliving.html">
-                                        <small>Sênior Living</small>
-                                    </a>
-                                </li>
-                                <li class=" item-list">
-                                    <a href="contato.html">
-                                        <small>Contato</small>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-        </header>
-
-    <!----hero-->
-        <section>
-            <title>Seecon Engenharia</title>
-            <div class='img-fluid' id="hero">
-                <div class="infos-hero col-sm-7 col-12">
-                    <div class="texts-hero">
-                        <h2>Vai construir ou reformar?</h2>
-                        <h2>Precisa de vistorias e laudos?</h2>
-                        <h2>Sua edificação precisa de um reparo estrutural?</h2>
-                        <br>
-                    </div>
-                    <a href="contato.html" class="button">Entre em contato</a>
-                </div>
-                <div class="col-sm-6"></div>
-            </div>
-        </section>
-
-    <!----main-->
-        <main>
-            <section class="main-home">
-                <img class="img-fluid" src="./images/img-exp.jpg" alt="engenheira seecon">
-                <div class="main-list">
-                    <h2>Expertise em Engenharia</h2>
-                    <ul>
-                        <li>Recuperação e Reforço Estrutural;</li>
-                        <li>Autovistoria e Inspeções Condominial;</li>
-                        <li>Laudos e Engenharia Diagnóstica;</li>
-                        <li>Senior Living.</li>  
+                <div class="header-content">
+                    <ul class="header-list" id="menu" role="menu">
+                        <li class=" item-list">
+                            <a href="index.html">
+                                <small>Home</small>
+                            </a>
+                        </li>
+                        <li class=" item-list">
+                            <a href="estrutural.html">
+                                <small>Engenharia Estrutural</small>
+                            </a>
+                        </li>
+                        <li class="item-list">
+                            <a href="diagnostica.html">
+                                <small>Engenharia Diagnóstica</small>
+                            </a>
+                        </li>
+                        <li class="item-list">
+                            <a href="seniorliving.html">
+                                <small>Sênior Living</small>
+                            </a>
+                        </li>
+                        <li class=" item-list">
+                            <a href="contato.html">
+                                <small>Contato</small>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-            </section>
-            <section>
-                <div class="main-text">
-                    <h3>Nosso Diferencial</h3>
-                    <p>Desempenhamos <span>soluções inovadoras e exclusivas</span> em projetos voltados para a construção civil, 
-                        com empreendimentos assinados em diversos estados do nordeste. </p>
-                </div>
-                <div class="main-text">
-                    <h3>Visão de Mercado</h3>
-                    <p>A nossa missão é desenvolver soluções  atendam as demandas individualizadas de cada clientes. 
-                        <span>A confiança e satisfação</span> de nossos clientes são o propósito do nosso sucesso. </p>
-                </div>
-            </section>
-        </main>
+            </nav>
+        </div>
+    </header>
 
-<!----footer-->
+    <!----hero-->
+    <section>
+        <title>Seecon Engenharia</title>
+        <div class='img-fluid' id="hero">
+            <div class="infos-hero col-sm-7 col-12">
+                <div class="texts-hero">
+                    <h2>Vai construir ou reformar?</h2>
+                    <h2>Precisa de vistorias e laudos?</h2>
+                    <h2>Sua edificação precisa de um reparo estrutural?</h2>
+                    <br>
+                </div>
+                <a href="contato.html" class="button">Entre em contato</a>
+            </div>
+            <div class="col-sm-6"></div>
+        </div>
+    </section>
+
+    <!----main-->
+    <main>
+        <section class="main-home">
+
+            <div id="slider">
+                <img class="selected" src="./images/img-exp.jpg" alt="engenheira seecon">
+                <img src="./images/img-exp2.jpg" alt="seecon2">
+                <img src="./images/img-exp3.jpg" alt="seecon3">
+            </div>
+
+            <div class="main-list">
+                <h2>Expertise em Engenharia</h2>
+                <ul>
+                    <li>Recuperação e Reforço Estrutural;</li>
+                    <li>Autovistoria e Inspeções Condominial;</li>
+                    <li>Laudos e Engenharia Diagnóstica;</li>
+                    <li>Senior Living.</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="main-text">
+                <h3>Nosso Diferencial</h3>
+                <p>Desempenhamos <span>soluções inovadoras e exclusivas</span> em projetos voltados para a construção
+                    civil,
+                    com empreendimentos assinados em diversos estados do nordeste. </p>
+            </div>
+            <div class="main-text">
+                <h3>Visão de Mercado</h3>
+                <p>A nossa missão é desenvolver soluções atendam as demandas individualizadas de cada clientes.
+                    <span>A confiança e satisfação</span> de nossos clientes são o propósito do nosso sucesso.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!----footer-->
     <footer>
         <div class="footer">
-            <div class="footer-content">   
+            <div class="footer-content">
                 <h5>Seecon Engenharia e Soluções</h5>
                 <p>Rua Manoel Andrade, nº 1755, Bairro Coroa do Meio, Aracaju/SE</p>
                 <div class="phones">
@@ -120,7 +124,7 @@
                     <p>(79) 99145-9081</p>
                 </div>
                 <p>contato@seeconengenharia.com</p>
-            </div>    
+            </div>
             <div class="footer-icons">
                 <a href="https://api.whatsapp.com/send?phone=+55799172-1777" target="_blank">
                     <img src="./images/whatsapp.png" alt="logo whatsapp">
@@ -128,7 +132,7 @@
                 <a>
                     <img src="./images/Facebook.png" alt="logo facebook">
                 </a>
-                <a href="https://www.instagram.com/seecon_engenharia/" >
+                <a href="https://www.instagram.com/seecon_engenharia/">
                     <img src="./images/instagram.png" alt="logo instagram">
                 </a>
                 <a>
@@ -137,7 +141,7 @@
                 <a>
                     <img src="./images/youtube.png" alt="logo youtube">
                 </a>
-            </div> 
+            </div>
         </div>
         <div class="created">
             <a href="https://github.com/Lincoln-Modesto" target="_blank">
@@ -146,6 +150,7 @@
             </a>
         </div>
     </footer>
-    </body>
-    <script src="js/buttonMobile.js" type="text/javascript"></script> 
+</body>
+<script src="js/buttonMobile.js" type="text/javascript"></script>
+
 </html>
