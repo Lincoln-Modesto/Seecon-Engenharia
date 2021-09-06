@@ -64,17 +64,20 @@ title{
     display: -webkit-flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 0 3rem 0 3rem;
     color: #455A64;
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
-.main-home h2{
-    font-weight: 900;
+.main-home h1{
+    font-weight: bold;
 }
 
 .main-home ul{
     margin-top: 1rem;
+    list-style: disc;
+    padding: 0 1.5rem;
 }
 
 .main-home ul li{
@@ -83,6 +86,11 @@ title{
     margin-top: 2rem;
     font-size: larger;
     font-weight: 600;
+}
+
+.main-list{
+    padding: 0 2rem 0 2rem;
+    
 }
 
 .main-text{

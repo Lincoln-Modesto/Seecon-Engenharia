@@ -8,10 +8,6 @@ body {
 
 /*-------------Main-----------*/
 
-#h1-senior{
-    display: none;
-}
-
 .bg-main{
     display: flex;
     display: -webkit-flex;
@@ -56,6 +52,8 @@ body {
     padding: 1.5rem;
 }
 
+
+
 .button-wpp{
     margin-top: 4rem;
     background: #27B43E;
@@ -95,6 +93,8 @@ body {
     color: #403C3C;
     font-size: medium;
     line-height: 2rem;
+    list-style: disc;
+    padding: 0 2rem;
 }
 
 .casal{
