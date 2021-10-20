@@ -1,4 +1,4 @@
-# Design UX/UI + Code site Institucional https://seeconengenharia.com 
+# Design UX/UI + Code, site Institucional https://seeconengenharia.com 
 
 ## Aplicação feita com HTML, CSS e Javascript puro. 
 
